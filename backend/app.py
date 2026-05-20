@@ -1283,6 +1283,81 @@ def scan_crypto_via_binance(universe_size, weekly_threshold, monthly_threshold, 
     return results
 
 
+def scan_crypto_via_binance_streaming(universe_size, weekly_threshold, monthly_threshold, market_cap_filter='all'):
+    """Scan crypto and yield (processed_count, match_result) tuples for streaming progress."""
+    print(f"[CRYPTO-STREAM] Starting streaming scan for top {universe_size} coins...")
+    
+    # Fetch all tickers first
+    try:
+        resp = requests.get(f"{_BINANCE_BASE}/ticker/24hr", headers=_binance_headers(), timeout=30)
+        if resp.status_code != 200:
+            print(f"[CRYPTO-STREAM] Binance ticker returned {resp.status_code}")
+            return
+        tickers = resp.json()
+    except Exception as e:
+        print(f"[CRYPTO-STREAM] Binance ticker request failed: {e}")
+        return
+
+    usdt = [
+        t for t in tickers
+        if t['symbol'].endswith('USDT') and t['symbol'][:-4] not in _STABLE_SYMBOLS
+    ]
+    usdt.sort(key=lambda x: float(x.get('quoteVolume', 0)), reverse=True)
+    top_tickers = usdt[:universe_size]
+
+    print(f"[CRYPTO-STREAM] Got {len(top_tickers)} pairs, scanning with streaming progress...")
+
+    def process_coin(ticker):
+        """Process a single coin and return result if it matches criteria."""
+        symbol    = ticker['symbol']
+        base      = symbol[:-4]
+        quote_vol = float(ticker.get('quoteVolume', 0))
+        cap_label = 'large' if quote_vol > 100_000_000 else 'mid' if quote_vol > 10_000_000 else 'small'
+        
+        weekly, monthly, current = _get_binance_kline_changes(symbol)
+        if weekly is None:
+            return None
+        
+        # Check if it matches criteria
+        if market_cap_filter != 'all' and cap_label != market_cap_filter:
+            return None
+        
+        if weekly <= -weekly_threshold and monthly <= -monthly_threshold:
+            w_factor = 1 + weekly / 100
+            m_factor = 1 + monthly / 100
+            result = {
+                'symbol':          base,
+                'name':            base,
+                'currentPrice':    round(current, 6),
+                'weeklyChange':    weekly,
+                'monthlyChange':   monthly,
+                'priceOneWeekAgo': round(current / w_factor, 6) if w_factor else 0,
+                'priceOneMonthAgo':round(current / m_factor, 6) if m_factor else 0,
+                'volume':          int(quote_vol),
+                'marketCap':       cap_label,
+                'sector':          'crypto',
+                'source':          'binance',
+            }
+            print(f"[MATCH] {base} W:{weekly:.1f}% M:{monthly:.1f}%")
+            return result
+        return None
+
+    # Process coins sequentially with progress updates to avoid rate limiting
+    processed = 0
+    matches = []
+    for ticker in top_tickers:
+        processed += 1
+        result = process_coin(ticker)
+        if result:
+            matches.append(result)
+        yield (processed, result)
+        # Small delay to respect Binance rate limits (1200 req/min = 1 req per 50ms)
+        time.sleep(0.1)
+
+    print(f"[CRYPTO-STREAM] Done — {len(matches)} coins matched criteria")
+    matches.sort(key=lambda x: x['weeklyChange'])
+
+
 # ── Stock Universe Router ─────────────────────────────────────────────────────
 
 def get_stock_universe(universe_type, market='india'):
@@ -1500,10 +1575,7 @@ def scan_stream():
 
     def generate():
         try:
-            # ── Crypto: monolithic Binance call ──
-            # (scan_crypto_via_binance does it all in one shot; we can't
-            # stream per-symbol progress for crypto without refactoring it.
-            # We emit init → all matches → done.)
+            # ── Crypto: streaming per-coin scan ──
             if market == 'crypto':
                 size_map = {'top50': 50, 'top100': 100, 'top200': 200, 'top500': 500}
                 universe_size = size_map.get(stock_universe, 100)
@@ -1511,16 +1583,22 @@ def scan_stream():
                     'total': universe_size, 'universe_size': universe_size,
                     'universe': stock_universe, 'market': 'crypto',
                 })
-                results = scan_crypto_via_binance(
+                
+                matches = []
+                for processed, result in scan_crypto_via_binance_streaming(
                     universe_size, weekly_threshold, monthly_threshold, market_cap_filter
-                )
-                for r in results:
-                    yield sse('match', r)
-                yield sse('progress', {
-                    'processed': universe_size, 'total': universe_size, 'matches': len(results)
-                })
+                ):
+                    if result:  # It's a match
+                        matches.append(result)
+                        yield sse('match', result)
+                    
+                    # Send progress update every coin processed
+                    yield sse('progress', {
+                        'processed': processed, 'total': universe_size, 'matches': len(matches)
+                    })
+                
                 yield sse('done', {
-                    'total_matches': len(results),
+                    'total_matches': len(matches),
                     'stock_universe': stock_universe,
                     'universe_size': universe_size,
                     'processed': universe_size,
