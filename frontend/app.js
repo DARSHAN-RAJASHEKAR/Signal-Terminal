@@ -140,7 +140,7 @@
     setMode('idle');
     checkHealth();
     fetchTickers();
-    setInterval(fetchTickers, 60000);  // refresh tickers every 60s
+    setInterval(fetchTickers, 5000);  // refresh tickers every 5s
     updateClock();
     setInterval(updateClock, 1000);
   });
