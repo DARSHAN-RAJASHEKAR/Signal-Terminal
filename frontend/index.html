@@ -16,7 +16,7 @@
   <div class="statusbar">
     <div class="sb-top-row">
       <div class="sb-left">
-        <span class="sb-brand">BuyTheDip</span>
+        <span class="sb-brand" id="homeBrand" role="button" tabindex="0">BuyTheDip</span>
         <span class="sb-sep">|</span>
         <span class="sb-status">
           <span class="sb-status-dot" id="statusDot"></span>
@@ -180,6 +180,10 @@
           <span id="buttonText">RUN SCAN</span>
           <span class="run-arrow">▸</span>
         </button>
+        <button class="run-btn cancel-btn" id="cancelBtn" hidden>
+          <span>CANCEL SCAN</span>
+          <span class="run-arrow">✕</span>
+        </button>
         <div class="run-hint" id="runHint">Press <kbd>⌘</kbd>+<kbd>↵</kbd> to run</div>
       </div>
     </aside>
@@ -190,11 +194,11 @@
       <!-- Canvas header -->
       <header class="canvas-head">
         <div class="canvas-crumbs">
-          <span>WORKSPACE</span>
+          <span class="crumb-item crumb-active" id="crumbConfigure" role="button" tabindex="0">CONFIGURE</span>
           <span class="crumb-sep">/</span>
-          <span>SCANNER</span>
+          <span class="crumb-item" id="crumbScanner">SCANNER</span>
           <span class="crumb-sep">/</span>
-          <span class="crumb-active" id="crumbActive">CONFIGURE</span>
+          <span class="crumb-item" id="crumbResult">RESULTS</span>
         </div>
         <div class="canvas-tools">
           <button class="tool-btn" id="exportBtn" disabled title="Export CSV">↓ EXPORT CSV</button>
@@ -204,7 +208,7 @@
       <!-- Mode 1: idle / initial -->
       <div class="mode" id="modeIdle">
         <div class="idle-wrap">
-          <div class="idle-eyebrow">▎ BUYTHEDIP</div>
+          <div class="idle-eyebrow">BUYTHEDIP</div>
           <h1 class="idle-title">Find dips. <span class="idle-dim">Before the headlines do.</span></h1>
           <p class="idle-lede">
             Scan across NSE, US markets and crypto for stocks that dropped beyond your thresholds.

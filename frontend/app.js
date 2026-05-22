@@ -94,11 +94,35 @@
 
   function setMode(name) {
     Object.entries(modes).forEach(([k, el]) => { el.hidden = (k !== name); });
-    const crumb = {
-      idle: 'CONFIGURE', loading: 'RUNNING SCAN', results: 'RESULTS',
-      noResults: 'NO MATCHES', error: 'ERROR',
-    }[name];
-    $('crumbActive').textContent = crumb;
+    const exportBtn = $('exportBtn');
+    const showExport = (name === 'results');
+    exportBtn.style.visibility = showExport ? 'visible' : 'hidden';
+    exportBtn.style.pointerEvents = showExport ? 'auto' : 'none';
+    exportBtn.disabled = !showExport;
+    const cCfg = $('crumbConfigure');
+    const cScan = $('crumbScanner');
+    const cRes = $('crumbResult');
+    cCfg.classList.remove('crumb-active');
+    cScan.classList.remove('crumb-active');
+    cRes.classList.remove('crumb-active');
+    cScan.textContent = 'SCANNER';
+    cRes.textContent = 'RESULTS';
+
+    if (name === 'idle') {
+      cCfg.classList.add('crumb-active');
+    } else if (name === 'loading') {
+      cScan.textContent = 'RUNNING SCAN';
+      cScan.classList.add('crumb-active');
+    } else if (name === 'results') {
+      cRes.textContent = 'RESULTS';
+      cRes.classList.add('crumb-active');
+    } else if (name === 'noResults') {
+      cRes.textContent = 'NO MATCHES';
+      cRes.classList.add('crumb-active');
+    } else {
+      cRes.textContent = 'ERROR';
+      cRes.classList.add('crumb-active');
+    }
   }
 
   // ── Init ──────────────────────────────────────────────────────
@@ -106,6 +130,7 @@
     renderUniverse(selectedMarket);
     renderSector(selectedMarket);
     wireMarketRows();
+    wireHomeNavigation();
     wireRunButton();
     wireExtraButtons();
     wireKeyboardShortcuts();
@@ -119,6 +144,34 @@
     updateClock();
     setInterval(updateClock, 1000);
   });
+
+  function wireHomeNavigation() {
+    const goToStart = () => {
+      if (window.__es) {
+        try { window.__es.close(); } catch {}
+        window.__es = null;
+      }
+      $('scanBtn').disabled = false;
+      $('buttonText').textContent = 'RUN SCAN';
+      $('scanBtn').hidden = false;
+      $('cancelBtn').hidden = true;
+      setMode('idle');
+    };
+
+    const wireClickable = (el) => {
+      if (!el) return;
+      el.addEventListener('click', goToStart);
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          goToStart();
+        }
+      });
+    };
+
+    wireClickable($('homeBrand'));
+    wireClickable($('crumbConfigure'));
+  }
 
   // ── Markets / universes / sectors ─────────────────────────────
   function wireMarketRows() {

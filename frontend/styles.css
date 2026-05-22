@@ -76,6 +76,7 @@ body {
 .sb-brand {
   color: var(--text);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .sb-dot {
@@ -483,6 +484,10 @@ body {
   transition: filter 120ms, transform 120ms;
 }
 
+.run-btn[hidden] {
+  display: none !important;
+}
+
 .run-btn:hover:not(:disabled) {
   filter: brightness(1.1);
 }
@@ -495,6 +500,16 @@ body {
   background: var(--borderH);
   color: var(--textOff);
   cursor: not-allowed;
+}
+
+.cancel-btn {
+  margin-top: 8px;
+  background: var(--red);
+  color: #fff;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  filter: brightness(1.06);
 }
 
 .run-arrow {
@@ -551,6 +566,10 @@ body {
 
 .crumb-active {
   color: var(--text);
+}
+
+.crumb-item[role="button"] {
+  cursor: pointer;
 }
 
 .canvas-tools {
