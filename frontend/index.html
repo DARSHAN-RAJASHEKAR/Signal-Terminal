@@ -14,36 +14,84 @@
 
   <!-- ── Status bar (always visible, fixed top) ─────────────────── -->
   <div class="statusbar">
-    <div class="sb-left">
-      <span class="sb-brand">BuyTheDip</span>
-      <span class="sb-sep">|</span>
-      <span class="sb-status">
-        <span class="sb-status-dot" id="statusDot"></span>
-        <span id="statusText">CONNECTING</span>
-      </span>
+    <div class="sb-top-row">
+      <div class="sb-left">
+        <span class="sb-brand">BuyTheDip</span>
+        <span class="sb-sep">|</span>
+        <span class="sb-status">
+          <span class="sb-status-dot" id="statusDot"></span>
+          <span id="statusText">CONNECTING</span>
+        </span>
+      </div>
+      <div class="sb-right-desktop" id="sbTickers">
+        <span class="sb-tick" data-tick="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-time" id="sbTime">—</span>
+      </div>
+      <span class="sb-time-mobile" id="sbTimeMobile">—</span>
     </div>
-    <div class="sb-right" id="sbTickers">
-      <span class="sb-tick" data-tick="nifty">
-        <span class="sb-tick-label">NIFTY 50</span>
-        <span class="sb-tick-val">—</span>
-        <span class="sb-tick-chg">—</span>
-      </span>
-      <span class="sb-tick" data-tick="sp500">
-        <span class="sb-tick-label">S&amp;P 500</span>
-        <span class="sb-tick-val">—</span>
-        <span class="sb-tick-chg">—</span>
-      </span>
-      <span class="sb-tick" data-tick="dow">
-        <span class="sb-tick-label">DOW 30</span>
-        <span class="sb-tick-val">—</span>
-        <span class="sb-tick-chg">—</span>
-      </span>
-      <span class="sb-tick" data-tick="btc">
-        <span class="sb-tick-label">BTC/USD</span>
-        <span class="sb-tick-val">—</span>
-        <span class="sb-tick-chg">—</span>
-      </span>
-      <span class="sb-time" id="sbTime">—</span>
+    <div class="sb-ticker-tape">
+      <div class="sb-ticker-track" id="sbTickerTrack">
+        <span class="sb-tick-m" data-tick-m="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <!-- Duplicated set for seamless loop -->
+        <span class="sb-tick-m" data-tick-m="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+      </div>
     </div>
   </div>
 

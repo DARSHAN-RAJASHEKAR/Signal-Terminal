@@ -47,14 +47,9 @@ body {
 
 /* ── Status bar ─────────────────────────────────────────────── */
 .statusbar {
-  height: 28px;
   flex-shrink: 0;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 14px;
   font-family: var(--mono);
   font-size: 10.5px;
   color: var(--textDim);
@@ -63,8 +58,16 @@ body {
   overflow: hidden;
 }
 
+.sb-top-row {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
 .sb-left,
-.sb-right {
+.sb-right-desktop {
   display: flex;
   align-items: center;
   gap: 18px;
@@ -143,6 +146,43 @@ body {
 
 .sb-time {
   color: var(--textOff);
+}
+
+/* Mobile time (shown only on ≤880px) */
+.sb-time-mobile {
+  display: none;
+  color: var(--textOff);
+  font-family: var(--mono);
+  font-size: 10.5px;
+}
+
+/* ── Ticker tape (mobile marquee — hidden on desktop) ────── */
+.sb-ticker-tape {
+  display: none;
+}
+
+.sb-ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  animation: tickerScroll 18s linear infinite;
+  width: max-content;
+}
+
+.sb-tick-m {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+@keyframes tickerScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Disclaimer ─────────────────────────────────────────────── */
@@ -1257,24 +1297,27 @@ body {
 
 @media (max-width: 880px) {
 
-  /* Status bar collapses */
+  /* Status bar becomes two rows on mobile */
+  .sb-right-desktop {
+    display: none !important;
+  }
+
+  .sb-time-mobile {
+    display: inline;
+    margin-left: auto;
+  }
+
+  .sb-ticker-tape {
+    display: block;
+    height: 28px;
+    overflow: hidden;
+    border-top: 1px solid var(--border);
+    padding: 0;
+    line-height: 28px;
+  }
+
   .sb-left {
     gap: 10px;
-  }
-
-  .sb-left .sb-sep,
-  .sb-left .sb-feed,
-  .sb-left .sb-market {
-    display: none;
-  }
-
-  .sb-right .sb-tick[data-tick="sp500"],
-  .sb-right .sb-tick[data-tick="dow"] {
-    display: none;
-  }
-
-  .sb-time {
-    display: none;
   }
 
   .disclaimer {
@@ -1289,7 +1332,7 @@ body {
   .rail {
     display: none;
     position: fixed;
-    inset: 28px 0 0 0;
+    inset: 56px 0 0 0;
     background: var(--bg);
     z-index: 50;
     padding: 16px;
@@ -1395,9 +1438,6 @@ body {
 }
 
 @media (max-width: 520px) {
-  .sb-right .sb-tick-label {
-    display: none;
-  }
 
   .stat-cell {
     min-width: 110px;

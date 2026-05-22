@@ -221,39 +221,58 @@
   }
 
   function paintTicker(id, valueStr, changePct, absStr) {
-    const root = document.querySelector(`.sb-tick[data-tick="${id}"]`);
-    if (!root) return;
-    const valEl = root.querySelector('.sb-tick-val');
-    const chgEl = root.querySelector('.sb-tick-chg');
-    valEl.textContent = valueStr;
-    chgEl.classList.remove('up', 'dn');
-    if (typeof changePct === 'number' && isFinite(changePct)) {
-      const sign = changePct >= 0 ? '+' : '';
-      const absPart = absStr ? `${absStr} ` : '';
-      chgEl.textContent = `${absPart}(${sign}${changePct.toFixed(2)}%)`;
-      chgEl.classList.add(changePct >= 0 ? 'up' : 'dn');
-    } else {
-      chgEl.textContent = '—';
-    }
+    // Update both desktop (.sb-tick) and mobile (.sb-tick-m) tickers
+    const roots = document.querySelectorAll(`.sb-tick[data-tick="${id}"], .sb-tick-m[data-tick-m="${id}"]`);
+    roots.forEach((root) => {
+      const valEl = root.querySelector('.sb-tick-val');
+      const chgEl = root.querySelector('.sb-tick-chg');
+      valEl.textContent = valueStr;
+      chgEl.classList.remove('up', 'dn');
+      if (typeof changePct === 'number' && isFinite(changePct)) {
+        const sign = changePct >= 0 ? '+' : '';
+        const absPart = absStr ? `${absStr} ` : '';
+        chgEl.textContent = `${absPart}(${sign}${changePct.toFixed(2)}%)`;
+        chgEl.classList.add(changePct >= 0 ? 'up' : 'dn');
+      } else {
+        chgEl.textContent = '—';
+      }
+    });
   }
 
   function paintTickerErr(id) {
-    const root = document.querySelector(`.sb-tick[data-tick="${id}"]`);
-    if (!root) return;
-    root.querySelector('.sb-tick-val').textContent = '—';
-    root.querySelector('.sb-tick-chg').textContent = '';
+    const roots = document.querySelectorAll(`.sb-tick[data-tick="${id}"], .sb-tick-m[data-tick-m="${id}"]`);
+    roots.forEach((root) => {
+      root.querySelector('.sb-tick-val').textContent = '—';
+      root.querySelector('.sb-tick-chg').textContent = '';
+    });
   }
 
   function updateClock() {
     const now = new Date();
     const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZone: 'Asia/Kolkata' };
     const t = now.toLocaleTimeString('en-GB', opts);
-    $('sbTime').textContent = `${t} IST`;
+    const str = `${t} IST`;
+    $('sbTime').textContent = str;
+    $('sbTimeMobile').textContent = str;
   }
 
   // ── Run scan ──────────────────────────────────────────────────
   function wireRunButton() {
     $('scanBtn').addEventListener('click', runScan);
+    $('cancelBtn').addEventListener('click', cancelScan);
+  }
+
+  function cancelScan() {
+    if (window.__es) {
+      try { window.__es.close(); } catch {}
+      window.__es = null;
+    }
+    const btn = $('scanBtn');
+    btn.disabled = false;
+    $('buttonText').textContent = 'RUN SCAN';
+    $('scanBtn').hidden = false;
+    $('cancelBtn').hidden = true;
+    setMode('idle');
   }
 
   function buildScanBody() {
@@ -280,6 +299,8 @@
     const btn = $('scanBtn');
     btn.disabled = true;
     $('buttonText').textContent = 'SCANNING…';
+    $('scanBtn').hidden = true;
+    $('cancelBtn').hidden = false;
 
     const body = buildScanBody();
     lastScanBody = body;
@@ -316,6 +337,8 @@
       window.__es = null;
       btn.disabled = false;
       $('buttonText').textContent = 'RUN SCAN';
+      $('scanBtn').hidden = false;
+      $('cancelBtn').hidden = true;
     };
 
     es.addEventListener('init', (e) => {
