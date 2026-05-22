@@ -16,7 +16,7 @@
       { value: 'nifty50',   label: 'NIFTY 50',   count: '50'   },
       { value: 'nifty100',  label: 'NIFTY 100',  count: '100'  },
       { value: 'nifty200',  label: 'NIFTY 200',  count: '200'  },
-      { value: 'nifty500',  label: 'EXTENDED',   count: '400+' },
+      { value: 'nifty500',  label: 'NIFTY 500',  count: '500' },
     ],
     us: [
       { value: 'dow30',     label: 'DOW 30',     count: '30'  },
@@ -63,7 +63,7 @@
   };
 
   const UNIVERSE_LABELS = {
-    nifty50: 'Nifty 50', nifty100: 'Nifty 100', nifty200: 'Nifty 200', nifty500: 'Extended',
+    nifty50: 'Nifty 50', nifty100: 'Nifty 100', nifty200: 'Nifty 200', nifty500: 'Nifty 500',
     dow30: 'DOW 30', sp100: 'S&P 100', nasdaq100: 'NASDAQ 100', sp500: 'S&P 500',
     top50: 'Top 50', top100: 'Top 100', top200: 'Top 200', top500: 'Top 500',
   };
@@ -354,13 +354,6 @@
     es.addEventListener('done', (e) => {
       const doneData = JSON.parse(e.data);
       const failed = doneData.failed_symbols || [];
-      if (failed.length > 0) {
-        console.group(`%c[BuyTheDip] ${failed.length} symbol(s) failed to fetch`, 'color: #ff5c5c; font-weight: bold;');
-        failed.forEach(sym => console.log(`  ✗ ${sym}`));
-        console.groupEnd();
-      } else {
-        console.log(`%c[BuyTheDip] All ${doneData.processed} symbols fetched successfully.`, 'color: #3ddc97; font-weight: bold;');
-      }
       sortCol = 'monthly';
       sortDir = 'asc';
       scanResults = matches.slice();
@@ -447,8 +440,8 @@
 
   // ── Render results ────────────────────────────────────────────
   function renderResults() {
-    const wThresh = lastScanBody.weeklyThreshold || 5;
-    const mThresh = lastScanBody.monthlyThreshold || 10;
+    const wThresh = (lastScanBody && lastScanBody.weeklyThreshold) || 5;
+    const mThresh = (lastScanBody && lastScanBody.monthlyThreshold) || 10;
     const cur     = CURRENCY[selectedMarket];
     const locale  = selectedMarket === 'india' ? 'en-IN' : 'en-US';
     const uniLabel = UNIVERSE_LABELS[scanData.stock_universe] || UNIVERSE_LABELS[selectedUniverse] || selectedUniverse;
@@ -482,10 +475,10 @@
     const monthly = scanResults.map((r) => parseFloat(r.monthlyChange));
     const avgW = weekly.reduce((a, b) => a + b, 0) / weekly.length;
     const avgM = monthly.reduce((a, b) => a + b, 0) / monthly.length;
-    const deepest = scanResults.reduce((a, b) => parseFloat(a.monthlyChange) < parseFloat(b.monthlyChange) ? a : b);
+    const deepest = scanResults.reduce((a, b) => parseFloat(a.monthlyChange) < parseFloat(b.monthlyChange) ? a : b, scanResults[0]);
     const mostLiquid = scanResults
       .filter((r) => typeof r.volume === 'number')
-      .reduce((a, b) => (a && a.volume > b.volume) ? a : b, null);
+      .reduce((a, b) => (a === null || b.volume > a.volume) ? b : a, null);
     const sectors = new Set(scanResults.map((r) => r.sector).filter(Boolean));
     const cells = [
       { label: 'AVG 1W',      value: avgW.toFixed(2) + '%', cls: 'red' },
@@ -531,7 +524,7 @@
     const volume = typeof r.volume === 'number' ? fmtCompact(r.volume) : (r.volume || '—');
 
     return `
-      <tr class="${i === 0 ? 'top' : ''}">
+      <tr>
         <td class="td-num">${String(i + 1).padStart(2, '0')}</td>
         <td>
           <div class="td-sym-code">${symbol}</div>
