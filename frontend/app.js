@@ -300,11 +300,16 @@
     });
   }
 
-  function updateClock() {
+  function localTimeStr() {
     const now = new Date();
-    const opts = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZone: 'Asia/Kolkata' };
-    const t = now.toLocaleTimeString('en-GB', opts);
-    const str = `${t} IST`;
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const time = now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZone: tz });
+    const abbr = now.toLocaleTimeString('en-US', { timeZoneName: 'short', timeZone: tz }).split(' ').pop();
+    return `${time} ${abbr}`;
+  }
+
+  function updateClock() {
+    const str = localTimeStr();
     $('sbTime').textContent = str;
     $('sbTimeMobile').textContent = str;
   }
@@ -408,13 +413,14 @@
       $('lstatSymbols').textContent = `${d.processed} / ${d.total}`;
       $('lstatMatches').textContent = d.matches;
 
-      // Smoothed ETA based on actual throughput
+      // ETA based on total elapsed time / total processed (stable average)
       const now = Date.now();
-      const dt = now - lastTickTs;
       const dprocessed = d.processed - lastProcessed;
-      if (dprocessed > 0 && dt > 0) {
-        const instantMs = dt / dprocessed;
-        avgMsPerSymbol = avgMsPerSymbol * 0.6 + instantMs * 0.4;  // EMA
+      if (dprocessed > 1) {
+        // Only update on bursts (multiple completions at once) — ignores noisy single events
+        const elapsed = now - scanStarted;
+        const msPerSymbol = elapsed / d.processed;
+        avgMsPerSymbol = avgMsPerSymbol * 0.7 + msPerSymbol * 0.3;
       }
       const remaining = Math.max(0, d.total - d.processed);
       const etaSec = Math.ceil((remaining * avgMsPerSymbol) / 1000);
@@ -541,7 +547,7 @@
 
     // Footer
     $('footFeed').textContent = (scanResults[0] && scanResults[0].source || 'YH').toUpperCase();
-    $('footTime').textContent = new Date().toLocaleTimeString('en-GB', { hour12: false, timeZone: 'Asia/Kolkata' }) + ' IST';
+    $('footTime').textContent = localTimeStr();
     updateSortHeaders();
   }
 

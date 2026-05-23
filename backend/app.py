@@ -1880,19 +1880,12 @@ def scan_crypto_via_binance_streaming(universe_size, weekly_threshold, monthly_t
             return result
         return None
 
-    # Process coins sequentially with progress updates to avoid rate limiting
     processed = 0
-    matches = []
-    for ticker in top_tickers:
-        processed += 1
-        result = process_coin(ticker)
-        if result:
-            matches.append(result)
-        yield (processed, result)
-        # Small delay to respect Binance rate limits (1200 req/min = 1 req per 50ms)
-        time.sleep(0.05)
-
-    matches.sort(key=lambda x: x['weeklyChange'])
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(process_coin, ticker): ticker for ticker in top_tickers}
+        for future in as_completed(futures):
+            processed += 1
+            yield (processed, future.result())
 
 
 # ── Stock Universe Router ─────────────────────────────────────────────────────
