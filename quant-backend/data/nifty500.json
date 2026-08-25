@@ -1,0 +1,2022 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "TCS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "HDFCBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ICICIBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "INFY",
+    "sector": "IT"
+  },
+  {
+    "symbol": "BHARTIARTL",
+    "sector": "Telecom"
+  },
+  {
+    "symbol": "ITC",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "SBIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "LICI",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "HINDUNILVR",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "LT",
+    "sector": "Construction"
+  },
+  {
+    "symbol": "BAJFINANCE",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "HCLTECH",
+    "sector": "IT"
+  },
+  {
+    "symbol": "MARUTI",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "SUNPHARMA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "KOTAKBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "M&M",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "AXISBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ULTRACEMCO",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "NTPC",
+    "sector": "Power"
+  },
+  {
+    "symbol": "TITAN",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "ONGC",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "ADANIENT",
+    "sector": "Diversified"
+  },
+  {
+    "symbol": "BAJAJFINSV",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "POWERGRID",
+    "sector": "Power"
+  },
+  {
+    "symbol": "WIPRO",
+    "sector": "IT"
+  },
+  {
+    "symbol": "ADANIPORTS",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "COALINDIA",
+    "sector": "Mining"
+  },
+  {
+    "symbol": "NESTLEIND",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "JSWSTEEL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "TMCV",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "TMPV",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "ASIANPAINT",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "TATASTEEL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "BAJAJ-AUTO",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "GRASIM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "HDFCLIFE",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "SBILIFE",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "TRENT",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "TECHM",
+    "sector": "IT"
+  },
+  {
+    "symbol": "CIPLA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "DRREDDY",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "EICHERMOT",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "INDUSINDBK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "HINDALCO",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "APOLLOHOSP",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "BPCL",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "BRITANNIA",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "DIVISLAB",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "HEROMOTOCO",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "SHRIRAMFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ADANIGREEN",
+    "sector": "Power"
+  },
+  {
+    "symbol": "ADANIENSOL",
+    "sector": "Power"
+  },
+  {
+    "symbol": "AMBUJACEM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "BAJAJHLDNG",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "BANKBARODA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "BEL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "BOSCHLTD",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "CANBK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CGPOWER",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "CHOLAFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "COLPAL",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "DABUR",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "DLF",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "GAIL",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "GODREJCP",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "HAVELLS",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "HAL",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "ICICIGI",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "ICICIPRULI",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "IOC",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "INDIGO",
+    "sector": "Aviation"
+  },
+  {
+    "symbol": "IRFC",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "JINDALSTEL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "JIOFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "LODHA",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "MARICO",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "MOTHERSON",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "MUTHOOTFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "NAUKRI",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "PIDILITIND",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "PFC",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "PNB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "RECLTD",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SIEMENS",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "SRF",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "TATACONSUM",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "TATAPOWER",
+    "sector": "Power"
+  },
+  {
+    "symbol": "TORNTPHARM",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "TVSMOTOR",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "UNITDSPR",
+    "sector": "Consumer"
+  },
+  {
+    "symbol": "UPL",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "VBL",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "VEDL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "ETERNAL",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "ZYDUSLIFE",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "PATANJALI",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "SUZLON",
+    "sector": "Power"
+  },
+  {
+    "symbol": "POLYCAB",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "ABB",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "ACC",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "ALKEM",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "APLAPOLLO",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "ASHOKLEY",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "ASTRAL",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "AUBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "AUROPHARMA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "BALKRISIND",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "BANDHANBNK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "BATAINDIA",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "BERGEPAINT",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "BHARATFORG",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "BHEL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "BIOCON",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "BSE",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CAMS",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CANFINHOME",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "COFORGE",
+    "sector": "IT"
+  },
+  {
+    "symbol": "CONCOR",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "COROMANDEL",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "CROMPTON",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "CUMMINSIND",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "DALBHARAT",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "DEEPAKNTR",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "DIXON",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "ESCORTS",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "EXIDEIND",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "FEDERALBNK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "FORTIS",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "GLAND",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "GLENMARK",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "GMRAIRPORT",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GODREJPROP",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "HDFCAMC",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "HINDPETRO",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "HONAUT",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "IDEA",
+    "sector": "Telecom"
+  },
+  {
+    "symbol": "IDFCFIRSTB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "IEX",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "INDHOTEL",
+    "sector": "Consumer"
+  },
+  {
+    "symbol": "INDIANB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "INDUSTOWER",
+    "sector": "Telecom"
+  },
+  {
+    "symbol": "IPCALAB",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "IRCTC",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "IRB",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "JKCEMENT",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "JSWENERGY",
+    "sector": "Power"
+  },
+  {
+    "symbol": "JUBLFOOD",
+    "sector": "Consumer"
+  },
+  {
+    "symbol": "KALYANKJIL",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "KEI",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "KPITTECH",
+    "sector": "IT"
+  },
+  {
+    "symbol": "LAURUSLABS",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "LICHSGFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "LTF",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "LTTS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "LUPIN",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "MANAPPURAM",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MAXHEALTH",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "MFSL",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "MGL",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "MPHASIS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "NATIONALUM",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "NAVINFLUOR",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "NHPC",
+    "sector": "Power"
+  },
+  {
+    "symbol": "NMDC",
+    "sector": "Mining"
+  },
+  {
+    "symbol": "OBEROIRLTY",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "OFSS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "OIL",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "PAGEIND",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "PAYTM",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "PERSISTENT",
+    "sector": "IT"
+  },
+  {
+    "symbol": "PETRONET",
+    "sector": "Energy"
+  },
+  {
+    "symbol": "PFIZER",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "PHOENIXLTD",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "PIIND",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "POLICYBZR",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "PRESTIGE",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "RVNL",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "SAIL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "SBICARD",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SCHAEFFLER",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "SHREECEM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "SJVN",
+    "sector": "Power"
+  },
+  {
+    "symbol": "SOLARINDS",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "SONACOMS",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "STARHEALTH",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "SUNDARMFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SUPREMEIND",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "SYNGENE",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "TATACHEM",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "TATACOMM",
+    "sector": "Telecom"
+  },
+  {
+    "symbol": "TATAELXSI",
+    "sector": "IT"
+  },
+  {
+    "symbol": "TIINDIA",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "TORNTPOWER",
+    "sector": "Power"
+  },
+  {
+    "symbol": "UBL",
+    "sector": "Consumer"
+  },
+  {
+    "symbol": "UCOBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "VOLTAS",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "YESBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ZEEL",
+    "sector": "Media"
+  },
+  {
+    "symbol": "ZFCVINDIA",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "RBLBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SOUTHBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "KARURVYSYA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "DCBBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CSBBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "EQUITASBNK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "UJJIVANSFB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "J&KBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "IIFL",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "PNBHOUSING",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CREDITACC",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "FUSION",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "AAVAS",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "HOMEFIRST",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "APTUS",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "POONAWALLA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "FIVESTAR",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MASFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ANGELONE",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MOTILALOFS",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "JMFINANCIL",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "GEOJITFSL",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "KFINTECH",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CDSL",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MCX",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "NUVAMA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ZENSARTECH",
+    "sector": "IT"
+  },
+  {
+    "symbol": "NEWGEN",
+    "sector": "IT"
+  },
+  {
+    "symbol": "INTELLECT",
+    "sector": "IT"
+  },
+  {
+    "symbol": "RATEGAIN",
+    "sector": "IT"
+  },
+  {
+    "symbol": "HAPPSTMNDS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "TANLA",
+    "sector": "IT"
+  },
+  {
+    "symbol": "ROUTE",
+    "sector": "IT"
+  },
+  {
+    "symbol": "LATENTVIEW",
+    "sector": "IT"
+  },
+  {
+    "symbol": "MASTEK",
+    "sector": "IT"
+  },
+  {
+    "symbol": "CYIENT",
+    "sector": "IT"
+  },
+  {
+    "symbol": "SONATSOFTW",
+    "sector": "IT"
+  },
+  {
+    "symbol": "NIITLTD",
+    "sector": "IT"
+  },
+  {
+    "symbol": "ECLERX",
+    "sector": "IT"
+  },
+  {
+    "symbol": "GRANULES",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "AJANTPHARM",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "NATCOPHARM",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "ERIS",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "SUVEN",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "GLAXO",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "SANOFI",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "ABBOTINDIA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "CAPLIPOINT",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "MARKSANS",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "RAINBOW",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "ASTERDM",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "NH",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "KIMS",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "YATHARTH",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "MRF",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "APOLLOTYRE",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "JKTYRE",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "ENDURANCE",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "MINDACORP",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "SUBROS",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "GABRIEL",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "JAMNAAUTO",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "SANSERA",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "UNOMINDA",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "CRAFTSMAN",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "EMAMILTD",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "GILLETTE",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "HONASA",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "RADICO",
+    "sector": "Consumer"
+  },
+  {
+    "symbol": "METROBRAND",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "RELAXO",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "VMART",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "RAMCOCEM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "INDIACEM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "HEIDELBERG",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "JKLAKSHMI",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "NUVOCO",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "JSL",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "WELCORP",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "RATNAMANI",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "HINDCOPPER",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "MOIL",
+    "sector": "Mining"
+  },
+  {
+    "symbol": "GRAVITA",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "CESC",
+    "sector": "Power"
+  },
+  {
+    "symbol": "THERMAX",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "KEC",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TRIVENI",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "INOXWIND",
+    "sector": "Power"
+  },
+  {
+    "symbol": "ADANIPOWER",
+    "sector": "Power"
+  },
+  {
+    "symbol": "AARTIIND",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "VINATIORGA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "GALAXYSURF",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "FINEORG",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "ALKYLAMINE",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "CLEAN",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "NOCIL",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "GHCL",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "CHAMBLFERT",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "GNFC",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "RCF",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "FACT",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "DEEPAKFERT",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "SOBHA",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "BRIGADE",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "SUNTECK",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "MAHLIFE",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "KIRLOSENG",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "GRINDWELL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "CARBORUNIV",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "ELGIEQUIP",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TIMKEN",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "SKFINDIA",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "AIAENG",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "SHAKTIPUMP",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TRIDENT",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "RAYMOND",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "KPRMILL",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "ARVIND",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "SHOPERSTOP",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "ABFRL",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "PVRINOX",
+    "sector": "Media"
+  },
+  {
+    "symbol": "SUNTV",
+    "sector": "Media"
+  },
+  {
+    "symbol": "NETWORK18",
+    "sector": "Media"
+  },
+  {
+    "symbol": "DBCORP",
+    "sector": "Media"
+  },
+  {
+    "symbol": "JAGRAN",
+    "sector": "Media"
+  },
+  {
+    "symbol": "NIACL",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "GICRE",
+    "sector": "Insurance"
+  },
+  {
+    "symbol": "GRSE",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "MAZDOCK",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "COCHINSHIP",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "BEML",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "IRCON",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "RITES",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "HUDCO",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "IREDA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "REPCOHOME",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "BSOFT",
+    "sector": "IT"
+  },
+  {
+    "symbol": "STAR",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "CEATLTD",
+    "sector": "Automobile"
+  },
+  {
+    "symbol": "MANYAVAR",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "KPIL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "WELSPUNLIV",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "VTL",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "NBCC",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "SBFC",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "UGROCAP",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SPANDANA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "SATIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "INDIASHLTR",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "PAISALO",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "ARMANFIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CENTRALBK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MAHABANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "IOB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "UNIONBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "PSB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "KTKBANK",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "MAPMYINDIA",
+    "sector": "IT"
+  },
+  {
+    "symbol": "DATAPATTNS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "CAMPUS",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "JUSTDIAL",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "EASEMYTRIP",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "TATATECH",
+    "sector": "IT"
+  },
+  {
+    "symbol": "AFFLE",
+    "sector": "IT"
+  },
+  {
+    "symbol": "SAGILITY",
+    "sector": "IT"
+  },
+  {
+    "symbol": "WOCKPHARMA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "JUBLPHARMA",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "SHILPAMED",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "NEULANDLAB",
+    "sector": "Pharma"
+  },
+  {
+    "symbol": "METROPOLIS",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "LALPATHLAB",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "THYROCARE",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "KRSNAA",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "POLYMED",
+    "sector": "Healthcare"
+  },
+  {
+    "symbol": "FIEMIND",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "RACLGEAR",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "GREAVESCOT",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "DMART",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "VGUARD",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "WHIRLPOOL",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "BLUESTARCO",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "IFBIND",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "ORIENTELEC",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "TTKPRESTIG",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "HAWKINCOOK",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "BAJAJELEC",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "SYMPHONY",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "CERA",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "KAJARIACER",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "GREENPANEL",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "CENTURYPLY",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "GREENPLY",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "BASF",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "SUDARSCHEM",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "BALAMINES",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "ROSSARI",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "NEOGEN",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "TATVA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "DHANUKA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "BAYERCROP",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "SUMICHEM",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "INSECTICID",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "BHARATRAS",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "STARCEMENT",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "ORIENTCEM",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "PRSMJOHNSN",
+    "sector": "Cement"
+  },
+  {
+    "symbol": "VISAKAIND",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "JINDALSAW",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "MAHSEAMLES",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "SURYAROSNI",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "GMDCLTD",
+    "sector": "Mining"
+  },
+  {
+    "symbol": "APARINDS",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "VOLTAMP",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TDPOWERSYS",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "WAAREEENER",
+    "sector": "Power"
+  },
+  {
+    "symbol": "INOXGREEN",
+    "sector": "Power"
+  },
+  {
+    "symbol": "BLUEDART",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "VRLLOG",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "TCI",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "MAHLOG",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "ALLCARGO",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GESHIP",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "SCI",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GOKEX",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "INDORAMA",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "NAHARSPING",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "GARFIBRES",
+    "sector": "Textiles"
+  },
+  {
+    "symbol": "SIGNATURE",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "ANANTRAJ",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "PURVA",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "KOLTEPATIL",
+    "sector": "Realty"
+  },
+  {
+    "symbol": "MIDHANI",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "BDL",
+    "sector": "Aerospace & Defence"
+  },
+  {
+    "symbol": "TEXRAIL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "JWL",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TITAGARH",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "RAILTEL",
+    "sector": "Telecom"
+  },
+  {
+    "symbol": "GODFRYPHLP",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "VSTIND",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "CCL",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "3MINDIA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "LINDEINDIA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "GRAPHITE",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "HEG",
+    "sector": "Metals"
+  },
+  {
+    "symbol": "KIRLOSBROS",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "KIRLOSIND",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "CUB",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "5PAISA",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "CHOICEIN",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "RELIGARE",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "RSYSTEMS",
+    "sector": "IT"
+  },
+  {
+    "symbol": "ZAGGLE",
+    "sector": "IT"
+  },
+  {
+    "symbol": "INDIAMART",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "YATRA",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "NAZARA",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "DELHIVERY",
+    "sector": "Internet"
+  },
+  {
+    "symbol": "MEDPLUS",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "GOCOLORS",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "ARVINDFASN",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "SAFARI",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "LAOPALA",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "CANTABIL",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "SENCO",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "THANGAMAYL",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "TBZ",
+    "sector": "Retail"
+  },
+  {
+    "symbol": "EIDPARRY",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "BALRAMCHIN",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "DALMIASUG",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "KSCL",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "AVANTIFEED",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "GODREJAGRO",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "KRBL",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "RAJRATAN",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "TEAMLEASE",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "QUESS",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "IKIO",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "SYRMA",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "AMBER",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "PGEL",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "EPACK",
+    "sector": "Consumer Durables"
+  },
+  {
+    "symbol": "AVALON",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "JYOTHYLAB",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "PGHH",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "BAJAJCON",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "ZYDUSWELL",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "HERANBA",
+    "sector": "Chemicals"
+  },
+  {
+    "symbol": "WABAG",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "VESUVIUS",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "GMMPFAUDLR",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "ELECON",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "KENNAMET",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "SCHNEIDER",
+    "sector": "Capital Goods"
+  },
+  {
+    "symbol": "TEXINFRA",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "PNCINFRA",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "KNRCON",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "HGINFRA",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GPPL",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GODREJIND",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "JBMA",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "TATAINVEST",
+    "sector": "Financial Services"
+  },
+  {
+    "symbol": "BALMLAWRIE",
+    "sector": "Infrastructure"
+  },
+  {
+    "symbol": "GMBREW",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "TASTYBITE",
+    "sector": "FMCG"
+  },
+  {
+    "symbol": "VARROC",
+    "sector": "Auto Ancillary"
+  },
+  {
+    "symbol": "ZENTEC",
+    "sector": "IT"
+  }
+]

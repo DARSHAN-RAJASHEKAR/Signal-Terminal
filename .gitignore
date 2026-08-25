@@ -158,3 +158,5 @@ debug.log
 
 # Claude
 .claude/
+# Local notes
+todo.txt

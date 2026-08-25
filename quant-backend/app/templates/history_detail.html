@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if run %}Scan #{{ run['id'] }}{% else %}Scan Details{% endif %} — NSE Screener</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>{% if run %}Scan #{{ run['id'] }} — {{ run['scan_timestamp_ist'] }} IST{% else %}Scan Details{% endif %}</h1>
+    <a class="history-link" href="/history">&larr; Back to History</a>
+  </header>
+
+  <main>
+    {% if not authenticated %}
+      <p class="empty">Set UPSTOX_ACCESS_TOKEN in .env to view this scan.</p>
+    {% else %}
+      {% set scan_date = run['trade_date'] %}
+      {% set errors = run['errors'].split('; ') if run['errors'] else [] %}
+      {% include "_results.html" %}
+    {% endif %}
+  </main>
+</body>
+</html>

@@ -6,6 +6,8 @@
     }
   ],
   "routes": [
+    { "src": "/quant", "dest": "https://quant-backend.onrender.com/" },
+    { "src": "/quant/(.*)", "dest": "https://quant-backend.onrender.com/$1" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]

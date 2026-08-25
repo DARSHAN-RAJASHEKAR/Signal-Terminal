@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scan History — NSE Screener</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Scan History</h1>
+    <a class="history-link" href="/all-pass">All Pass</a>
+    <a class="history-link" href="/">&larr; Back to Scanner</a>
+  </header>
+
+  <main>
+    {% if not authenticated %}
+      <p class="empty">Set UPSTOX_ACCESS_TOKEN in .env to view scan history.</p>
+    {% elif not runs %}
+      <p class="empty">No scans recorded yet.</p>
+    {% else %}
+    <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp (IST)</th><th>Trade Date</th><th>Symbols Scanned</th>
+          <th>Passed Gates</th><th>Warnings</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for run in runs %}
+        <tr>
+          <td>{{ run['scan_timestamp_ist'] }}</td>
+          <td>{{ run['trade_date'] }}</td>
+          <td>{{ run['symbols_scanned'] }}</td>
+          <td>{{ run['gates_passed'] }}</td>
+          <td>{{ run['errors'].split('; ')|length if run['errors'] else 0 }}</td>
+          <td><a href="/history/{{ run['id'] }}">View →</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    {% endif %}
+  </main>
+</body>
+</html>
