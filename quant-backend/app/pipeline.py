@@ -5,7 +5,7 @@ from datetime import date
 
 from app import db, factors, gates, risk, scoring, trendlyne_client, upstox_client
 from app.config import FUNDAMENTALS_DAILY_QUOTA, NIFTY_500_INDEX_SYMBOL
-from app.watchlist import ensure_watchlist_seeded, get_watchlist_limit
+from app.watchlist import ensure_watchlist_seeded, get_watchlist_selection
 
 # threading.Event (not asyncio.Event) because _ingest_prices runs in a worker
 # thread via asyncio.to_thread — this needs to be checkable safely from both
@@ -139,14 +139,14 @@ _FACTOR_DAILY_COLUMNS = [
 ]
 
 
-async def run_scan(limit: int | None = None) -> dict:
+async def run_scan(limit: str | None = None) -> dict:
     _cancel_event.clear()  # fresh scan — clear any stale flag from a previous cancelled run
     timing: dict[str, float] = {}
     t0 = time.monotonic()
 
     db.init_db()
     ensure_watchlist_seeded(limit)
-    effective_limit = limit if limit is not None else get_watchlist_limit()
+    effective_limit = limit if limit is not None else get_watchlist_selection()
     watchlist_rows = db.get_watchlist()
     timing["setup"] = time.monotonic() - t0
 

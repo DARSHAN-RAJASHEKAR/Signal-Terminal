@@ -15,6 +15,8 @@ TRENDLYNE_MCP_URL = os.environ.get("TRENDLYNE_MCP_URL", "")
 TRENDLYNE_API_KEY = os.environ.get("TRENDLYNE_API_KEY", "")
 
 NIFTY500_SEED_PATH = BASE_DIR / "data" / "nifty500.json"
+NIFTYSMALLCAP250_SEED_PATH = BASE_DIR / "data" / "niftysmallcap250.json"
+NIFTYMICROCAP250_SEED_PATH = BASE_DIR / "data" / "niftymicrocap250.json"
 
 # Turso — hosted SQLite-compatible database, connected to directly (no local
 # file/cache — see db.py's module docstring for why). Required; there's no

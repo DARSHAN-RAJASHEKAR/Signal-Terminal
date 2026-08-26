@@ -6,7 +6,7 @@ from fastapi.templating import Jinja2Templates
 
 from app import db, pipeline, upstox_client
 from app.config import BASE_DIR
-from app.watchlist import ALLOWED_WATCHLIST_LIMITS, get_watchlist_limit
+from app.watchlist import get_watchlist_selection, is_valid_selection, watchlist_selection_options
 
 app = FastAPI(title="NSE Screener")
 app.mount("/static", StaticFiles(directory=BASE_DIR / "app" / "static"), name="static")
@@ -19,16 +19,16 @@ def _startup():
 
 
 @app.get("/")
-def index(request: Request, limit: int | None = None):
-    if limit is not None and limit not in ALLOWED_WATCHLIST_LIMITS:
-        raise HTTPException(status_code=400, detail=f"limit must be one of {ALLOWED_WATCHLIST_LIMITS}")
+def index(request: Request, limit: str | None = None):
+    if limit is not None and not is_valid_selection(limit):
+        raise HTTPException(status_code=400, detail=f"limit must be one of {[v for v, _ in watchlist_selection_options()]}")
     authenticated = upstox_client.is_authenticated()
 
     # `limit` reflects the size selector on screen — passed explicitly via
     # ?limit= when the user changes the dropdown without scanning, so results
     # are always scoped to the size actually shown rather than falling back
     # to whatever size was most recently scanned.
-    watchlist_limit = limit if limit is not None else get_watchlist_limit()
+    watchlist_limit = limit if limit is not None else get_watchlist_selection()
 
     today = date.today().isoformat()
     results = db.get_scan_results(today, watchlist_limit=watchlist_limit) if authenticated else []
@@ -46,7 +46,7 @@ def index(request: Request, limit: int | None = None):
             "scan_date": today if results else None,
             "scan_timestamp_ist": scan_timestamp_ist,
             "watchlist_limit": watchlist_limit,
-            "watchlist_limit_options": ALLOWED_WATCHLIST_LIMITS,
+            "watchlist_limit_options": watchlist_selection_options(),
         },
     )
 
@@ -129,9 +129,9 @@ def all_pass(request: Request):
 
 
 @app.post("/scan")
-async def scan(request: Request, limit: int | None = None):
-    if limit is not None and limit not in ALLOWED_WATCHLIST_LIMITS:
-        raise HTTPException(status_code=400, detail=f"limit must be one of {ALLOWED_WATCHLIST_LIMITS}")
+async def scan(request: Request, limit: str | None = None):
+    if limit is not None and not is_valid_selection(limit):
+        raise HTTPException(status_code=400, detail=f"limit must be one of {[v for v, _ in watchlist_selection_options()]}")
     outcome = await pipeline.run_scan(limit)
 
     if outcome["status"] == "auth_required":

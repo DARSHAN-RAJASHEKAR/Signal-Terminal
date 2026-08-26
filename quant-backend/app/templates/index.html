@@ -14,8 +14,8 @@
     </div>
     {% endif %}
     <select id="watchlist-limit">
-      {% for opt in watchlist_limit_options %}
-      <option value="{{ opt }}" {{ 'selected' if opt == watchlist_limit else '' }}>Top {{ opt }}</option>
+      {% for value, label in watchlist_limit_options %}
+      <option value="{{ value }}" {{ 'selected' if value == watchlist_limit else '' }}>{{ label }}</option>
       {% endfor %}
     </select>
     <button id="scan-btn">Scan</button>

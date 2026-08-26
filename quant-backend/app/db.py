@@ -424,7 +424,7 @@ def insert_fundamentals(symbol: str, data: dict, as_of_date: str | None = None):
 
 
 def create_scan_run(
-    trade_date: str, symbols_scanned: int, gates_passed: int, errors: list[str], watchlist_limit: int
+    trade_date: str, symbols_scanned: int, gates_passed: int, errors: list[str], watchlist_limit: str
 ) -> int:
     """One row per Scan click — the history index."""
     with get_conn() as conn:
@@ -453,7 +453,7 @@ def save_factor_rows(scan_run_id: int, rows: list[dict]):
         )
 
 
-def get_latest_run_id(trade_date: str | None = None, watchlist_limit: int | None = None) -> int | None:
+def get_latest_run_id(trade_date: str | None = None, watchlist_limit: str | None = None) -> int | None:
     """watchlist_limit, when given, restricts to runs of that exact size —
     otherwise the homepage could show a stale Top 50 result while the size
     selector reads Top 500."""
@@ -481,7 +481,7 @@ def get_run_results(scan_run_id: int) -> list[Row]:
         ).fetchall()
 
 
-def get_scan_results(scan_date: str, watchlist_limit: int | None = None) -> list[Row]:
+def get_scan_results(scan_date: str, watchlist_limit: str | None = None) -> list[Row]:
     """Latest run's results for a given date (and, when given, an exact
     watchlist size) — used by the home page."""
     run_id = get_latest_run_id(trade_date=scan_date, watchlist_limit=watchlist_limit)
