@@ -1,0 +1,7082 @@
+{
+ "generated_on": "2026-11-10",
+ "shares_as_of": "2026-11-09",
+ "sectors": [
+  "Agriculture & Allied Industries",
+  "Apparel and Clothes",
+  "Auto Ancillary",
+  "Auto Manufacturers",
+  "Auto Retail",
+  "Aviation",
+  "Banks",
+  "Batteries",
+  "Bearings",
+  "Building Materials",
+  "Cement",
+  "Ceramic Products",
+  "Chemicals",
+  "Defence",
+  "Distributors",
+  "E-Commerce/App based Aggregator",
+  "Education",
+  "Electrical Appliances",
+  "Electrical Equipment",
+  "Electronic Manufacturers",
+  "Engineering",
+  "Financial Services",
+  "FMCG",
+  "Food & Beverages",
+  "Footwear",
+  "Furniture",
+  "Gas Distribution",
+  "Healthcare",
+  "Hospitality",
+  "Infrastructure",
+  "Information Technology",
+  "Insurance",
+  "Jewellery",
+  "Leather",
+  "Logistics",
+  "Maritime Industries",
+  "Media & Entertainment",
+  "Metals & Mining",
+  "Oil",
+  "Packaging",
+  "Paints",
+  "Paper",
+  "Pharmaceuticals",
+  "Plastic and Polymers",
+  "Power",
+  "Professional Services",
+  "Railways",
+  "Rating Agencies",
+  "Real Estate",
+  "Real Estate Investment Trusts",
+  "Refractories",
+  "Retail Chains",
+  "Rubber Products",
+  "Sugar",
+  "Telecom",
+  "Telecom Equipment & Infra Services",
+  "Textiles",
+  "Tyre",
+  "Waste Management",
+  "Water Distribution"
+ ],
+ "stocks": [
+  {
+   "symbol": "360ONE",
+   "name": "360 ONE WAM",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 407914200
+  },
+  {
+   "symbol": "ABB",
+   "name": "ABB India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 211908375
+  },
+  {
+   "symbol": "ACC",
+   "name": "ACC",
+   "sector": "Cement",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 187787263
+  },
+  {
+   "symbol": "ACMESOLAR",
+   "name": "ACME Solar Holdings",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 706874336
+  },
+  {
+   "symbol": "AIAENG",
+   "name": "AIA Engineering",
+   "sector": "Engineering",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 93320370
+  },
+  {
+   "symbol": "APLAPOLLO",
+   "name": "APL Apollo Tubes",
+   "sector": "Building Materials",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 277658405
+  },
+  {
+   "symbol": "AUBANK",
+   "name": "AU Small Finance Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 750989765
+  },
+  {
+   "symbol": "AWL",
+   "name": "AWL Agri Business",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1299678605
+  },
+  {
+   "symbol": "AXISCADES",
+   "name": "AXISCADES Technologies",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 42533489
+  },
+  {
+   "symbol": "AADHARHFC",
+   "name": "Aadhar Housing Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 438393157
+  },
+  {
+   "symbol": "AARTIIND",
+   "name": "Aarti Industries",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 362594491
+  },
+  {
+   "symbol": "AARTIPHARM",
+   "name": "Aarti Pharmalabs",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 90679813
+  },
+  {
+   "symbol": "AAVAS",
+   "name": "Aavas Financiers",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 79294327
+  },
+  {
+   "symbol": "ABBOTINDIA",
+   "name": "Abbott India",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 21249302
+  },
+  {
+   "symbol": "ACE",
+   "name": "Action Construction Equipment",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 119083196
+  },
+  {
+   "symbol": "ACUTAAS",
+   "name": "Acutaas Chemicals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 81871122
+  },
+  {
+   "symbol": "ADANIENSOL",
+   "name": "Adani Energy Solutions",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1222954468
+  },
+  {
+   "symbol": "ADANIENT",
+   "name": "Adani Enterprises",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1353430178
+  },
+  {
+   "symbol": "ADANIGREEN",
+   "name": "Adani Green Energy",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1647176155
+  },
+  {
+   "symbol": "ADANIPORTS",
+   "name": "Adani Ports and Special Economic Zone",
+   "sector": "Maritime Industries",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2303959098
+  },
+  {
+   "symbol": "ADANIPOWER",
+   "name": "Adani Power",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 19284694705
+  },
+  {
+   "symbol": "ATGL",
+   "name": "Adani Total Gas",
+   "sector": "Gas Distribution",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1099810083
+  },
+  {
+   "symbol": "ABCAPITAL",
+   "name": "Aditya Birla Capital",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2737726904
+  },
+  {
+   "symbol": "ABFRL",
+   "name": "Aditya Birla Fashion and Retail",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 1220510115
+  },
+  {
+   "symbol": "ABLBL",
+   "name": "Aditya Birla Lifestyle Brands",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 1220521649
+  },
+  {
+   "symbol": "ABREL",
+   "name": "Aditya Birla Real Estate",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 111695680
+  },
+  {
+   "symbol": "ABSLAMC",
+   "name": "Aditya Birla Sun Life AMC",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 289358498
+  },
+  {
+   "symbol": "CPPLUS",
+   "name": "Aditya Infotech",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 118300435
+  },
+  {
+   "symbol": "AVL",
+   "name": "Aditya Vision",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 129138050
+  },
+  {
+   "symbol": "ADVENZYMES",
+   "name": "Advanced Enzyme Tech",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 111151122
+  },
+  {
+   "symbol": "AEGISLOG",
+   "name": "Aegis Logistics",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 351000000
+  },
+  {
+   "symbol": "AEGISVOPAK",
+   "name": "Aegis Vopak Terminals",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1107991489
+  },
+  {
+   "symbol": "AEQUS",
+   "name": "Aequs",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 670665635
+  },
+  {
+   "symbol": "AEROFLEX",
+   "name": "Aeroflex Industries",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 132330768
+  },
+  {
+   "symbol": "AETHER",
+   "name": "Aether Industries",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 132727845
+  },
+  {
+   "symbol": "AFCONS",
+   "name": "Afcons Infrastructure",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 367784631
+  },
+  {
+   "symbol": "AFFLE",
+   "name": "Affle 3i",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 140879384
+  },
+  {
+   "symbol": "AJANTPHARM",
+   "name": "Ajanta Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 124959024
+  },
+  {
+   "symbol": "AKUMS",
+   "name": "Akums Drugs and Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 157393988
+  },
+  {
+   "symbol": "ALKEM",
+   "name": "Alkem Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 119565000
+  },
+  {
+   "symbol": "ALKYLAMINE",
+   "name": "Alkyl Amines Chemicals",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 51148224
+  },
+  {
+   "symbol": "ABDL",
+   "name": "Allied Blenders and Distillers",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 279710151
+  },
+  {
+   "symbol": "AMAGI",
+   "name": "Amagi Media Labs",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 220153202
+  },
+  {
+   "symbol": "ARE&M",
+   "name": "Amara Raja Energy & Mobility",
+   "sector": "Batteries",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 183025364
+  },
+  {
+   "symbol": "AMBER",
+   "name": "Amber Enterprises India",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 35267767
+  },
+  {
+   "symbol": "AMBUJACEM",
+   "name": "Ambuja Cements",
+   "sector": "Cement",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 2484817186
+  },
+  {
+   "symbol": "ANANDRATHI",
+   "name": "Anand Rathi Wealth",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 166041268
+  },
+  {
+   "symbol": "ANANTRAJ",
+   "name": "Anant Raj",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 359876930
+  },
+  {
+   "symbol": "ANGELONE",
+   "name": "Angel One",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 914036506
+  },
+  {
+   "symbol": "ANTHEM",
+   "name": "Anthem Biosciences",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 563528045
+  },
+  {
+   "symbol": "ANURAS",
+   "name": "Anupam Rasayan India",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 113849841
+  },
+  {
+   "symbol": "APARINDS",
+   "name": "Apar Industries",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 41872337
+  },
+  {
+   "symbol": "APOLLOHOSP",
+   "name": "Apollo Hospitals Enterprise",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 143784657
+  },
+  {
+   "symbol": "APOLLO",
+   "name": "Apollo Micro Systems",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 371599512
+  },
+  {
+   "symbol": "APOLLOTYRE",
+   "name": "Apollo Tyres",
+   "sector": "Tyre",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 635100946
+  },
+  {
+   "symbol": "APTUS",
+   "name": "Aptus Value Housing Finance India",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 500830236
+  },
+  {
+   "symbol": "ACI",
+   "name": "Archean Chemical Industries",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 123458394
+  },
+  {
+   "symbol": "ARVINDFASN",
+   "name": "Arvind Fashions",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 133672192
+  },
+  {
+   "symbol": "ARVIND",
+   "name": "Arvind",
+   "sector": "Textiles",
+   "indices": [],
+   "shares": 272040630
+  },
+  {
+   "symbol": "ASAHIINDIA",
+   "name": "Asahi India Glass",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 254927192
+  },
+  {
+   "symbol": "ASHAPURMIN",
+   "name": "Ashapura Minechem",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 95526098
+  },
+  {
+   "symbol": "ASHOKLEY",
+   "name": "Ashok Leyland",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 5873854552
+  },
+  {
+   "symbol": "ASHOKA",
+   "name": "Ashoka Buildcon",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 280723217
+  },
+  {
+   "symbol": "ASIANPAINT",
+   "name": "Asian Paints",
+   "sector": "Paints",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 959197790
+  },
+  {
+   "symbol": "ASTERDM",
+   "name": "Aster DM Quality Care",
+   "sector": "Healthcare",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 871672439
+  },
+  {
+   "symbol": "ASTRAMICRO",
+   "name": "Astra Microwave Products",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 94945008
+  },
+  {
+   "symbol": "ASTRAL",
+   "name": "Astral",
+   "sector": "Plastic and Polymers",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 268650163
+  },
+  {
+   "symbol": "ATHERENERG",
+   "name": "Ather Energy",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 396119200
+  },
+  {
+   "symbol": "ATLANTAELE",
+   "name": "Atlanta Electricals",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 76896625
+  },
+  {
+   "symbol": "ATUL",
+   "name": "Atul",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 29441755
+  },
+  {
+   "symbol": "AURIONPRO",
+   "name": "Aurionpro Solution",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 55261664
+  },
+  {
+   "symbol": "AUROPHARMA",
+   "name": "Aurobindo Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 575377895
+  },
+  {
+   "symbol": "AIIL",
+   "name": "Authum Investment & Infrastructure",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 849225500
+  },
+  {
+   "symbol": "AVALON",
+   "name": "Avalon Technologies",
+   "sector": "Electronic Manufacturers",
+   "indices": [],
+   "shares": 66882300
+  },
+  {
+   "symbol": "AVANTIFEED",
+   "name": "Avanti Feeds",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 136245630
+  },
+  {
+   "symbol": "DMART",
+   "name": "Avenue Supermarts",
+   "sector": "Retail Chains",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 652245977
+  },
+  {
+   "symbol": "AXISBANK",
+   "name": "Axis Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 3113573654
+  },
+  {
+   "symbol": "AZAD",
+   "name": "Azad Engineering",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 64581743
+  },
+  {
+   "symbol": "BEML",
+   "name": "BEML",
+   "sector": "Defence",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 83289000
+  },
+  {
+   "symbol": "BLS",
+   "name": "BLS International Services",
+   "sector": "Professional Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 411740908
+  },
+  {
+   "symbol": "BSE",
+   "name": "BSE",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 407884077
+  },
+  {
+   "symbol": "BAGMANE",
+   "name": "Bagmane Prime Office REIT",
+   "sector": "Real Estate Investment Trusts",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 3400000000
+  },
+  {
+   "symbol": "BAJAJ-AUTO",
+   "name": "Bajaj Auto",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 274803838
+  },
+  {
+   "symbol": "BAJAJCON",
+   "name": "Bajaj Consumer Care",
+   "sector": "FMCG",
+   "indices": [],
+   "shares": 130618321
+  },
+  {
+   "symbol": "BAJFINANCE",
+   "name": "Bajaj Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 6225954304
+  },
+  {
+   "symbol": "BAJAJFINSV",
+   "name": "Bajaj Finserv",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1602061346
+  },
+  {
+   "symbol": "BAJAJHLDNG",
+   "name": "Bajaj Holdings & Investment",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 111293510
+  },
+  {
+   "symbol": "BAJAJHFL",
+   "name": "Bajaj Housing Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 8332334619
+  },
+  {
+   "symbol": "BALAMINES",
+   "name": "Balaji Amines",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 32401000
+  },
+  {
+   "symbol": "BALKRISIND",
+   "name": "Balkrishna Industries",
+   "sector": "Tyre",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 193317190
+  },
+  {
+   "symbol": "BALRAMCHIN",
+   "name": "Balrampur Chini Mills",
+   "sector": "Sugar",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 211597496
+  },
+  {
+   "symbol": "BALUFORGE",
+   "name": "Balu Forge Industries",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 121391900
+  },
+  {
+   "symbol": "BANCOINDIA",
+   "name": "Banco Products (India)",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 143037300
+  },
+  {
+   "symbol": "BANDHANBNK",
+   "name": "Bandhan Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1611147348
+  },
+  {
+   "symbol": "BANKBARODA",
+   "name": "Bank of Baroda",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 5171362179
+  },
+  {
+   "symbol": "BANKINDIA",
+   "name": "Bank of India",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 4552667866
+  },
+  {
+   "symbol": "MAHABANK",
+   "name": "Bank of Maharashtra",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 7691554950
+  },
+  {
+   "symbol": "BATAINDIA",
+   "name": "Bata India",
+   "sector": "Footwear",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 128527540
+  },
+  {
+   "symbol": "BELRISE",
+   "name": "Belrise Industries",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 967151919
+  },
+  {
+   "symbol": "BERGEPAINT",
+   "name": "Berger Paints India",
+   "sector": "Paints",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1166002812
+  },
+  {
+   "symbol": "BHARATCOAL",
+   "name": "Bharat Coking Coal",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 4657000000
+  },
+  {
+   "symbol": "BDL",
+   "name": "Bharat Dynamics",
+   "sector": "Defence",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 366562500
+  },
+  {
+   "symbol": "BEL",
+   "name": "Bharat Electronics",
+   "sector": "Defence",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 7309778829
+  },
+  {
+   "symbol": "BHARATFORG",
+   "name": "Bharat Forge",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 488670642
+  },
+  {
+   "symbol": "BHEL",
+   "name": "Bharat Heavy Electricals",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 3482063355
+  },
+  {
+   "symbol": "BPCL",
+   "name": "Bharat Petroleum Corporation",
+   "sector": "Oil",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 4338505488
+  },
+  {
+   "symbol": "BHARTIARTL",
+   "name": "Bharti Airtel",
+   "sector": "Telecom",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 6240501059
+  },
+  {
+   "symbol": "BHARTIHEXA",
+   "name": "Bharti Hexacom",
+   "sector": "Telecom",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 500000000
+  },
+  {
+   "symbol": "GROWW",
+   "name": "Billionbrains Garage Ventures",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 6273596631
+  },
+  {
+   "symbol": "BIOCON",
+   "name": "Biocon",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1629694135
+  },
+  {
+   "symbol": "BIRLACORPN",
+   "name": "Birla Corporation",
+   "sector": "Cement",
+   "indices": [],
+   "shares": 77005347
+  },
+  {
+   "symbol": "BSOFT",
+   "name": "Birlasoft",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 279667056
+  },
+  {
+   "symbol": "BBOX",
+   "name": "Black Box",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 177599205
+  },
+  {
+   "symbol": "BLACKBUCK",
+   "name": "Blackbuck",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [],
+   "shares": 182167195
+  },
+  {
+   "symbol": "BLUEJET",
+   "name": "Blue Jet Healthcare",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 189275701
+  },
+  {
+   "symbol": "BLUESTARCO",
+   "name": "Blue Star",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 205614788
+  },
+  {
+   "symbol": "BLUESTONE",
+   "name": "BlueStone Jewellery and Lifestyle",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 152778705
+  },
+  {
+   "symbol": "BORORENEW",
+   "name": "Borosil Renewables",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 140592240
+  },
+  {
+   "symbol": "BOSCHLTD",
+   "name": "Bosch",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 29496100
+  },
+  {
+   "symbol": "FIRSTCRY",
+   "name": "Brainbees Solutions",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 522090584
+  },
+  {
+   "symbol": "BRIGADE",
+   "name": "Brigade Enterprises",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 326259283
+  },
+  {
+   "symbol": "BRITANNIA",
+   "name": "Britannia Industries",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 240868296
+  },
+  {
+   "symbol": "BIRET",
+   "name": "Brookfield India Real Estate Trust",
+   "sector": "Real Estate Investment Trusts",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 829880869
+  },
+  {
+   "symbol": "MAPMYINDIA",
+   "name": "C.E. Info Systems",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 54814209
+  },
+  {
+   "symbol": "CCL",
+   "name": "CCL Products (I)",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 133527920
+  },
+  {
+   "symbol": "CESC",
+   "name": "CESC",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1325570430
+  },
+  {
+   "symbol": "CGPOWER",
+   "name": "CG Power and Industrial Solutions",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1575450059
+  },
+  {
+   "symbol": "CIEINDIA",
+   "name": "CIE Automotive India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 379362377
+  },
+  {
+   "symbol": "CMRGREEN",
+   "name": "CMR Green Technologies",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 219055489
+  },
+  {
+   "symbol": "CMSINFO",
+   "name": "CMS Info Systems",
+   "sector": "Professional Services",
+   "indices": [],
+   "shares": 160063415
+  },
+  {
+   "symbol": "CRISIL",
+   "name": "CRISIL",
+   "sector": "Rating Agencies",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 73130017
+  },
+  {
+   "symbol": "CSBBANK",
+   "name": "CSB Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 173485827
+  },
+  {
+   "symbol": "CAMPUS",
+   "name": "Campus Activewear",
+   "sector": "Footwear",
+   "indices": [],
+   "shares": 305679721
+  },
+  {
+   "symbol": "CANFINHOME",
+   "name": "Can Fin Homes",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 133154591
+  },
+  {
+   "symbol": "CANBK",
+   "name": "Canara Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 9070651260
+  },
+  {
+   "symbol": "CANHLIFE",
+   "name": "Canara HSBC Life Insurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 950000000
+  },
+  {
+   "symbol": "CRAMC",
+   "name": "Canara Robeco Asset Management Company",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 199417428
+  },
+  {
+   "symbol": "CAPILLARY",
+   "name": "Capillary Technologies India",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 79588731
+  },
+  {
+   "symbol": "CAPLIPOINT",
+   "name": "Caplin Point Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 76011696
+  },
+  {
+   "symbol": "CGCL",
+   "name": "Capri Global Capital",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 962153962
+  },
+  {
+   "symbol": "CARBORUNIV",
+   "name": "Carborundum Universal",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 190505384
+  },
+  {
+   "symbol": "CARTRADE",
+   "name": "Cartrade Tech",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 48614885
+  },
+  {
+   "symbol": "CASTROLIND",
+   "name": "Castrol India",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 989122384
+  },
+  {
+   "symbol": "CEATLTD",
+   "name": "Ceat",
+   "sector": "Tyre",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 40450092
+  },
+  {
+   "symbol": "CEIGALL",
+   "name": "Ceigall India",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 174204861
+  },
+  {
+   "symbol": "CELLO",
+   "name": "Cello World",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 225538273
+  },
+  {
+   "symbol": "CEMPRO",
+   "name": "Cemindia Projects",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 184422963
+  },
+  {
+   "symbol": "CENTRALBK",
+   "name": "Central Bank of India",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 9051401274
+  },
+  {
+   "symbol": "CDSL",
+   "name": "Central Depository Services (India)",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 209000000
+  },
+  {
+   "symbol": "CMPDI",
+   "name": "Central Mine Planning & Design Institute",
+   "sector": "Professional Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 714000000
+  },
+  {
+   "symbol": "CENTUM",
+   "name": "Centum Electronics",
+   "sector": "Electronic Manufacturers",
+   "indices": [],
+   "shares": 14762016
+  },
+  {
+   "symbol": "CERA",
+   "name": "Cera Sanitaryware",
+   "sector": "Ceramic Products",
+   "indices": [],
+   "shares": 12897541
+  },
+  {
+   "symbol": "CHALET",
+   "name": "Chalet Hotels",
+   "sector": "Hospitality",
+   "indices": [],
+   "shares": 218994127
+  },
+  {
+   "symbol": "CHAMBLFERT",
+   "name": "Chambal Fertilizers & Chemicals",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 400652297
+  },
+  {
+   "symbol": "CHENNPETRO",
+   "name": "Chennai Petroleum Corporation",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 148911400
+  },
+  {
+   "symbol": "CHOICEIN",
+   "name": "Choice International",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 222776500
+  },
+  {
+   "symbol": "CHOLAHLDNG",
+   "name": "Cholamandalam Financial Holdings",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 187777462
+  },
+  {
+   "symbol": "CHOLAFIN",
+   "name": "Cholamandalam Investment and Finance Company",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 854310592
+  },
+  {
+   "symbol": "CIPLA",
+   "name": "Cipla",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 807858447
+  },
+  {
+   "symbol": "CUB",
+   "name": "City Union Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 990787238
+  },
+  {
+   "symbol": "CLEANMAX",
+   "name": "Clean Max Enviro Energy Solutions",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 117549370
+  },
+  {
+   "symbol": "CLEAN",
+   "name": "Clean Science and Technology",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 106284121
+  },
+  {
+   "symbol": "COALINDIA",
+   "name": "Coal India",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 6162728327
+  },
+  {
+   "symbol": "COCHINSHIP",
+   "name": "Cochin Shipyard",
+   "sector": "Maritime Industries",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 263080780
+  },
+  {
+   "symbol": "COFORGE",
+   "name": "Coforge",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 442978090
+  },
+  {
+   "symbol": "COHANCE",
+   "name": "Cohance Lifesciences",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 382597330
+  },
+  {
+   "symbol": "COLPAL",
+   "name": "Colgate Palmolive (India)",
+   "sector": "FMCG",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 271985634
+  },
+  {
+   "symbol": "CAMS",
+   "name": "Computer Age Management Services",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 248418378
+  },
+  {
+   "symbol": "CONCORDBIO",
+   "name": "Concord Biotech",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 209232408
+  },
+  {
+   "symbol": "CONCOR",
+   "name": "Container Corporation of India",
+   "sector": "Logistics",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 761617935
+  },
+  {
+   "symbol": "COROMANDEL",
+   "name": "Coromandel International",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 295060899
+  },
+  {
+   "symbol": "CRAFTSMAN",
+   "name": "Craftsman Automation",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 26154433
+  },
+  {
+   "symbol": "CREDITACC",
+   "name": "CreditAccess Grameen",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 160484490
+  },
+  {
+   "symbol": "CROMPTON",
+   "name": "Crompton Greaves Consumer Electricals",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 643914875
+  },
+  {
+   "symbol": "CUMMINSIND",
+   "name": "Cummins India",
+   "sector": "Engineering",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 277200000
+  },
+  {
+   "symbol": "CUPID",
+   "name": "Cupid",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1344660700
+  },
+  {
+   "symbol": "CYIENT",
+   "name": "Cyient",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 104752989
+  },
+  {
+   "symbol": "DCBBANK",
+   "name": "DCB Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 322178962
+  },
+  {
+   "symbol": "DLF",
+   "name": "DLF",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 2475315036
+  },
+  {
+   "symbol": "DOMS",
+   "name": "DOMS Industries",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 60688336
+  },
+  {
+   "symbol": "DABUR",
+   "name": "Dabur India",
+   "sector": "FMCG",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1773957026
+  },
+  {
+   "symbol": "DALBHARAT",
+   "name": "Dalmia Bharat",
+   "sector": "Cement",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 187565953
+  },
+  {
+   "symbol": "DATAPATTNS",
+   "name": "Data Patterns (India)",
+   "sector": "Defence",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 55983969
+  },
+  {
+   "symbol": "DATAMATICS",
+   "name": "Datamatics Global Services",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 59106389
+  },
+  {
+   "symbol": "DEEPAKFERT",
+   "name": "Deepak Fertilisers & Petrochemicals Corp.",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 126237825
+  },
+  {
+   "symbol": "DEEPAKNTR",
+   "name": "Deepak Nitrite",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 136393041
+  },
+  {
+   "symbol": "DELHIVERY",
+   "name": "Delhivery",
+   "sector": "Logistics",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 749294369
+  },
+  {
+   "symbol": "DEVYANI",
+   "name": "Devyani International",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1232939791
+  },
+  {
+   "symbol": "DIACABS",
+   "name": "Diamond Power Infrastructure",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 598071060
+  },
+  {
+   "symbol": "DBL",
+   "name": "Dilip Buildcon",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 162444833
+  },
+  {
+   "symbol": "DIVISLAB",
+   "name": "Divi's Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 265468580
+  },
+  {
+   "symbol": "DIXON",
+   "name": "Dixon Technologies (India)",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 61170586
+  },
+  {
+   "symbol": "LALPATHLAB",
+   "name": "Dr. Lal Path Labs",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 167848820
+  },
+  {
+   "symbol": "DRREDDY",
+   "name": "Dr. Reddy's Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 834680285
+  },
+  {
+   "symbol": "DYNAMATECH",
+   "name": "Dynamatic Technologies",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 6791443
+  },
+  {
+   "symbol": "EIDPARRY",
+   "name": "E.I.D. Parry (India)",
+   "sector": "Sugar",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 177955692
+  },
+  {
+   "symbol": "E2E",
+   "name": "E2E NETWORKS",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 205564890
+  },
+  {
+   "symbol": "EIHOTEL",
+   "name": "EIH",
+   "sector": "Hospitality",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 625364182
+  },
+  {
+   "symbol": "EMBASSY",
+   "name": "EMBASSY OFFICE PARKS REIT",
+   "sector": "Real Estate Investment Trusts",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 947893743
+  },
+  {
+   "symbol": "EPL",
+   "name": "EPL",
+   "sector": "Packaging",
+   "indices": [],
+   "shares": 320371279
+  },
+  {
+   "symbol": "EDELWEISS",
+   "name": "Edelweiss Financial Services",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 946541103
+  },
+  {
+   "symbol": "EICHERMOT",
+   "name": "Eicher Motors",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 274521706
+  },
+  {
+   "symbol": "ELECON",
+   "name": "Elecon Engineering Co.",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 224399930
+  },
+  {
+   "symbol": "EMIL",
+   "name": "Electronics Mart India",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 384748762
+  },
+  {
+   "symbol": "ELECTCAST",
+   "name": "Electrosteel Castings",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 618184591
+  },
+  {
+   "symbol": "ELGIEQUIP",
+   "name": "Elgi Equipments",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 316909016
+  },
+  {
+   "symbol": "ELLEN",
+   "name": "Ellenbarrie Industrial Gases",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 140935600
+  },
+  {
+   "symbol": "EMAMILTD",
+   "name": "Emami",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 436500000
+  },
+  {
+   "symbol": "EMBDL",
+   "name": "Embassy Developments",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 1390633433
+  },
+  {
+   "symbol": "EMCURE",
+   "name": "Emcure Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 189710647
+  },
+  {
+   "symbol": "EMMVEE",
+   "name": "Emmvee Photovoltaic Power",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 692345033
+  },
+  {
+   "symbol": "ENDURANCE",
+   "name": "Endurance Technologies",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 140662848
+  },
+  {
+   "symbol": "ENGINERSIN",
+   "name": "Engineers India",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 562042373
+  },
+  {
+   "symbol": "ENNATURE",
+   "name": "Ennature Bio Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 22342255
+  },
+  {
+   "symbol": "ENTERO",
+   "name": "Entero Healthcare Solutions",
+   "sector": "Distributors",
+   "indices": [],
+   "shares": 43523072
+  },
+  {
+   "symbol": "EIEL",
+   "name": "Enviro Infra Engineers",
+   "sector": "Water Distribution",
+   "indices": [],
+   "shares": 175530000
+  },
+  {
+   "symbol": "EQUITASBNK",
+   "name": "Equitas Small Finance Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 1144126917
+  },
+  {
+   "symbol": "ERIS",
+   "name": "Eris Lifesciences",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 138583305
+  },
+  {
+   "symbol": "ESCORTS",
+   "name": "Escorts Kubota",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 111877754
+  },
+  {
+   "symbol": "ETERNAL",
+   "name": "Eternal",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 9650350647
+  },
+  {
+   "symbol": "EXIDEIND",
+   "name": "Exide Industries",
+   "sector": "Batteries",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 850000000
+  },
+  {
+   "symbol": "NYKAA",
+   "name": "FSN E-Commerce Ventures",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2864294813
+  },
+  {
+   "symbol": "FEDFINA",
+   "name": "Fedbank Financial Services",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 375141782
+  },
+  {
+   "symbol": "FEDERALBNK",
+   "name": "Federal Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2473577902
+  },
+  {
+   "symbol": "FACT",
+   "name": "Fertilisers and Chemicals Travancore",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 647071974
+  },
+  {
+   "symbol": "FIEMIND",
+   "name": "Fiem Industries",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 26319660
+  },
+  {
+   "symbol": "FINCABLES",
+   "name": "Finolex Cables",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 152939345
+  },
+  {
+   "symbol": "FINPIPE",
+   "name": "Finolex Industries",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 620476905
+  },
+  {
+   "symbol": "FSL",
+   "name": "Firstsource Solutions",
+   "sector": "Professional Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 696990826
+  },
+  {
+   "symbol": "FIVESTAR",
+   "name": "Five-Star Business Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 295195658
+  },
+  {
+   "symbol": "FORCEMOT",
+   "name": "Force Motors",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 13032914
+  },
+  {
+   "symbol": "FORTIS",
+   "name": "Fortis Healthcare",
+   "sector": "Healthcare",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 754958148
+  },
+  {
+   "symbol": "FRACTAL",
+   "name": "Fractal Analytics",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 173255040
+  },
+  {
+   "symbol": "UTLSOLAR",
+   "name": "Fujiyama Power Systems",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 306901762
+  },
+  {
+   "symbol": "GAIL",
+   "name": "GAIL (India)",
+   "sector": "Gas Distribution",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 6575099644
+  },
+  {
+   "symbol": "GVT&D",
+   "name": "GE Vernova T&D India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 256046535
+  },
+  {
+   "symbol": "GMRAIRPORT",
+   "name": "GMR Airports",
+   "sector": "Aviation",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 10558975952
+  },
+  {
+   "symbol": "GMRP&UI",
+   "name": "GMR Power and Urban Infra",
+   "sector": "Power",
+   "indices": [],
+   "shares": 781017529
+  },
+  {
+   "symbol": "EBGNG",
+   "name": "GNG Electronics",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 114011517
+  },
+  {
+   "symbol": "GABRIEL",
+   "name": "Gabriel India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 177230023
+  },
+  {
+   "symbol": "GALLANTT",
+   "name": "Gallantt Ispat",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 241280945
+  },
+  {
+   "symbol": "GRSE",
+   "name": "Garden Reach Shipbuilders & Engineers",
+   "sector": "Defence",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 114552000
+  },
+  {
+   "symbol": "GRWRHITECH",
+   "name": "Garware Hi-Tech Films",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 23232394
+  },
+  {
+   "symbol": "GICRE",
+   "name": "General Insurance Corporation of India",
+   "sector": "Insurance",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1754400000
+  },
+  {
+   "symbol": "GENUSPOWER",
+   "name": "Genus Power Infrastructures",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 304242615
+  },
+  {
+   "symbol": "GILLETTE",
+   "name": "Gillette India",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 32585217
+  },
+  {
+   "symbol": "GLAND",
+   "name": "Gland Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 165010854
+  },
+  {
+   "symbol": "GLAXO",
+   "name": "Glaxosmithkline Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 169406034
+  },
+  {
+   "symbol": "GLENMARK",
+   "name": "Glenmark Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 282224672
+  },
+  {
+   "symbol": "MEDANTA",
+   "name": "Global Health",
+   "sector": "Healthcare",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 268871782
+  },
+  {
+   "symbol": "GPIL",
+   "name": "Godawari Power & Ispat",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 673238965
+  },
+  {
+   "symbol": "GODFRYPHLP",
+   "name": "Godfrey Phillips India",
+   "sector": "FMCG",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 155981760
+  },
+  {
+   "symbol": "GODREJAGRO",
+   "name": "Godrej Agrovet",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 192411390
+  },
+  {
+   "symbol": "GODREJCP",
+   "name": "Godrej Consumer Products",
+   "sector": "FMCG",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1023304953
+  },
+  {
+   "symbol": "GODREJIND",
+   "name": "Godrej Industries",
+   "sector": "Chemicals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 336851055
+  },
+  {
+   "symbol": "GODREJPROP",
+   "name": "Godrej Properties",
+   "sector": "Real Estate",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 301226497
+  },
+  {
+   "symbol": "GOKEX",
+   "name": "Gokaldas Exports",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 73277628
+  },
+  {
+   "symbol": "GOKULAGRO",
+   "name": "Gokul Agro Resources",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 295086716
+  },
+  {
+   "symbol": "GOLDIAM",
+   "name": "Goldiam International",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 150557125
+  },
+  {
+   "symbol": "GRANULES",
+   "name": "Granules India",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 247796921
+  },
+  {
+   "symbol": "GRAPHITE",
+   "name": "Graphite India",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 195375594
+  },
+  {
+   "symbol": "GRASIM",
+   "name": "Grasim Industries",
+   "sector": "Cement",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 680537721
+  },
+  {
+   "symbol": "GRAVITA",
+   "name": "Gravita India",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 73808451
+  },
+  {
+   "symbol": "GESHIP",
+   "name": "Great Eastern Shipping Co.",
+   "sector": "Maritime Industries",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 142767161
+  },
+  {
+   "symbol": "GREAVESCOT",
+   "name": "Greaves Cotton",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 232951434
+  },
+  {
+   "symbol": "GRINDWELL",
+   "name": "Grindwell Norton",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 110720000
+  },
+  {
+   "symbol": "GUJALKALI",
+   "name": "Gujarat Alkalies & Chemicals",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 73445242
+  },
+  {
+   "symbol": "GAEL",
+   "name": "Gujarat Ambuja Exports",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 458670660
+  },
+  {
+   "symbol": "FLUOROCHEM",
+   "name": "Gujarat Fluorochemicals",
+   "sector": "Chemicals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 109850000
+  },
+  {
+   "symbol": "GMDCLTD",
+   "name": "Gujarat Mineral Development Corporation",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 318000000
+  },
+  {
+   "symbol": "GNFC",
+   "name": "Gujarat Narmada Valley Fertilizers and Chemicals",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 146940683
+  },
+  {
+   "symbol": "GPPL",
+   "name": "Gujarat Pipavav Port",
+   "sector": "Maritime Industries",
+   "indices": [],
+   "shares": 483439910
+  },
+  {
+   "symbol": "GSFC",
+   "name": "Gujarat State Fertilizers & Chemicals",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 398477530
+  },
+  {
+   "symbol": "HGINFRA",
+   "name": "H.G. Infra Engineering",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 65171111
+  },
+  {
+   "symbol": "HBLENGINE",
+   "name": "HBL Engineering",
+   "sector": "Batteries",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 277194946
+  },
+  {
+   "symbol": "HCLTECH",
+   "name": "HCL Technologies",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2713665096
+  },
+  {
+   "symbol": "HDBFS",
+   "name": "HDB Financial Services",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 830764935
+  },
+  {
+   "symbol": "HDFCAMC",
+   "name": "HDFC Asset Management Company",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 429073398
+  },
+  {
+   "symbol": "HDFCBANK",
+   "name": "HDFC Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 15416700168
+  },
+  {
+   "symbol": "HDFCLIFE",
+   "name": "HDFC Life Insurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2172588981
+  },
+  {
+   "symbol": "HEGAM",
+   "name": "HEG Advanced Materials",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 329798912
+  },
+  {
+   "symbol": "HFCL",
+   "name": "HFCL",
+   "sector": "Telecom Equipment & Infra Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1530602463
+  },
+  {
+   "symbol": "HAPPSTMNDS",
+   "name": "Happiest Minds Technologies",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 152274811
+  },
+  {
+   "symbol": "HAPPYFORGE",
+   "name": "Happy Forgings",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 94401146
+  },
+  {
+   "symbol": "HAVELLS",
+   "name": "Havells India",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 627561652
+  },
+  {
+   "symbol": "HCG",
+   "name": "Healthcare Global Enterprises",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 149302203
+  },
+  {
+   "symbol": "HERITGFOOD",
+   "name": "Heritage Foods",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 92796000
+  },
+  {
+   "symbol": "HEROMOTOCO",
+   "name": "Hero MotoCorp",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 200141207
+  },
+  {
+   "symbol": "HEXT",
+   "name": "Hexaware Technologies",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 611015992
+  },
+  {
+   "symbol": "HSCL",
+   "name": "Himadri Speciality Chemical",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 504574175
+  },
+  {
+   "symbol": "HINDALCO",
+   "name": "Hindalco Industries",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2247226523
+  },
+  {
+   "symbol": "HAL",
+   "name": "Hindustan Aeronautics",
+   "sector": "Defence",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 668775000
+  },
+  {
+   "symbol": "HCC",
+   "name": "Hindustan Construction Co.",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 2619468062
+  },
+  {
+   "symbol": "HINDCOPPER",
+   "name": "Hindustan Copper",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 967024020
+  },
+  {
+   "symbol": "HINDPETRO",
+   "name": "Hindustan Petroleum Corporation",
+   "sector": "Oil",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2127822518
+  },
+  {
+   "symbol": "HINDUNILVR",
+   "name": "Hindustan Unilever",
+   "sector": "FMCG",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2349591262
+  },
+  {
+   "symbol": "HINDZINC",
+   "name": "Hindustan Zinc",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 4225319000
+  },
+  {
+   "symbol": "POWERINDIA",
+   "name": "Hitachi Energy India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 44572363
+  },
+  {
+   "symbol": "HOMEFIRST",
+   "name": "Home First Finance Company India",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 104563142
+  },
+  {
+   "symbol": "HONASA",
+   "name": "Honasa Consumer",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 326024216
+  },
+  {
+   "symbol": "HONAUT",
+   "name": "Honeywell Automation India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 8841523
+  },
+  {
+   "symbol": "HUDCO",
+   "name": "Housing & Urban Development Corporation",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2001900000
+  },
+  {
+   "symbol": "HYUNDAI",
+   "name": "Hyundai Motor India",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 812541100
+  },
+  {
+   "symbol": "ICICIBANK",
+   "name": "ICICI Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 7178461591
+  },
+  {
+   "symbol": "ICICILIFE",
+   "name": "ICICI Life Insurance",
+   "sector": "Insurance",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1451230779
+  },
+  {
+   "symbol": "ICICIGI",
+   "name": "ICICI Lombard General Insurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 499614796
+  },
+  {
+   "symbol": "ICICIAMC",
+   "name": "ICICI Prudential Asset Management Company",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 494258520
+  },
+  {
+   "symbol": "IDBI",
+   "name": "IDBI Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 10752402175
+  },
+  {
+   "symbol": "IDFCFIRSTB",
+   "name": "IDFC First Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 8622196236
+  },
+  {
+   "symbol": "IFBIND",
+   "name": "IFB Industries",
+   "sector": "Electrical Appliances",
+   "indices": [],
+   "shares": 40518796
+  },
+  {
+   "symbol": "IFCI",
+   "name": "IFCI",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 2694314331
+  },
+  {
+   "symbol": "IGLSPIRITS",
+   "name": "IGL Spirits",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 67026765
+  },
+  {
+   "symbol": "IIFLCAPS",
+   "name": "IIFL Capital Services",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 315178863
+  },
+  {
+   "symbol": "IIFL",
+   "name": "IIFL Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 426811890
+  },
+  {
+   "symbol": "INOXINDIA",
+   "name": "INOX India",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 90922459
+  },
+  {
+   "symbol": "IRB",
+   "name": "IRB Infrastructure Developers",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 12078000000
+  },
+  {
+   "symbol": "IRCON",
+   "name": "IRCON International",
+   "sector": "Railways",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 940515740
+  },
+  {
+   "symbol": "ITCHOTELS",
+   "name": "ITC Hotels",
+   "sector": "Hospitality",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2083005769
+  },
+  {
+   "symbol": "ITC",
+   "name": "ITC",
+   "sector": "FMCG",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 12530517082
+  },
+  {
+   "symbol": "ITI",
+   "name": "ITI",
+   "sector": "Telecom Equipment & Infra Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 962851967
+  },
+  {
+   "symbol": "INDGN",
+   "name": "Indegene",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 240966756
+  },
+  {
+   "symbol": "INDIACEM",
+   "name": "India Cements",
+   "sector": "Cement",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 309897201
+  },
+  {
+   "symbol": "INDIAGLYCO",
+   "name": "India Glycols",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 67026765
+  },
+  {
+   "symbol": "INDIAMART",
+   "name": "Indiamart Intermesh",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 60143148
+  },
+  {
+   "symbol": "INDIANB",
+   "name": "Indian Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1346963981
+  },
+  {
+   "symbol": "IEX",
+   "name": "Indian Energy Exchange",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 891692735
+  },
+  {
+   "symbol": "INDHOTEL",
+   "name": "Indian Hotels Co.",
+   "sector": "Hospitality",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1423432227
+  },
+  {
+   "symbol": "IMFA",
+   "name": "Indian Metals & Ferro Alloys",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 53954106
+  },
+  {
+   "symbol": "IOC",
+   "name": "Indian Oil Corporation",
+   "sector": "Oil",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 14121238383
+  },
+  {
+   "symbol": "IOB",
+   "name": "Indian Overseas Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 19256589795
+  },
+  {
+   "symbol": "IRCTC",
+   "name": "Indian Railway Catering And Tourism Corporation",
+   "sector": "Railways",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 800000000
+  },
+  {
+   "symbol": "IRFC",
+   "name": "Indian Railway Finance Corporation",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 13068506000
+  },
+  {
+   "symbol": "IREDA",
+   "name": "Indian Renewable Energy Development Agency",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2809231268
+  },
+  {
+   "symbol": "INDIGOPNTS",
+   "name": "Indigo Paints",
+   "sector": "Paints",
+   "indices": [],
+   "shares": 47732637
+  },
+  {
+   "symbol": "ICIL",
+   "name": "Indo Count Industries",
+   "sector": "Textiles",
+   "indices": [],
+   "shares": 198054340
+  },
+  {
+   "symbol": "IGL",
+   "name": "Indraprastha Gas",
+   "sector": "Gas Distribution",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1400001600
+  },
+  {
+   "symbol": "INDUSTOWER",
+   "name": "Indus Towers",
+   "sector": "Telecom Equipment & Infra Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2638162757
+  },
+  {
+   "symbol": "INDUSINDBK",
+   "name": "IndusInd Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 779140552
+  },
+  {
+   "symbol": "NAUKRI",
+   "name": "Info Edge (India)",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 648420600
+  },
+  {
+   "symbol": "INFY",
+   "name": "Infosys",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 4058232462
+  },
+  {
+   "symbol": "INOXWIND",
+   "name": "Inox Wind",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1728237822
+  },
+  {
+   "symbol": "INTELLECT",
+   "name": "Intellect Design Arena",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 140463287
+  },
+  {
+   "symbol": "INDIGO",
+   "name": "InterGlobe Aviation",
+   "sector": "Aviation",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 386666597
+  },
+  {
+   "symbol": "IGIL",
+   "name": "International Gemological Institute",
+   "sector": "Professional Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 432159696
+  },
+  {
+   "symbol": "IKS",
+   "name": "Inventurus Knowledge Solutions",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 171573159
+  },
+  {
+   "symbol": "IONEXCHANG",
+   "name": "Ion Exchange (India)",
+   "sector": "Water Distribution",
+   "indices": [],
+   "shares": 146666590
+  },
+  {
+   "symbol": "IPCALAB",
+   "name": "Ipca Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 253704218
+  },
+  {
+   "symbol": "JKCEMENT",
+   "name": "J.K. Cement",
+   "sector": "Cement",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 77268251
+  },
+  {
+   "symbol": "JAIBALAJI",
+   "name": "JAI BALAJI INDUSTRIES",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 912256930
+  },
+  {
+   "symbol": "JBMA",
+   "name": "JBM Auto",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 236494264
+  },
+  {
+   "symbol": "JKPAPER",
+   "name": "JK Paper",
+   "sector": "Paper",
+   "indices": [],
+   "shares": 181318771
+  },
+  {
+   "symbol": "JKTYRE",
+   "name": "JK Tyre & Industries",
+   "sector": "Tyre",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 288289511
+  },
+  {
+   "symbol": "JMFINANCIL",
+   "name": "JM Financial",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 956959936
+  },
+  {
+   "symbol": "JSWCEMENT",
+   "name": "JSW Cement",
+   "sector": "Cement",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1363364936
+  },
+  {
+   "symbol": "JSWENERGY",
+   "name": "JSW Energy",
+   "sector": "Power",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1833482736
+  },
+  {
+   "symbol": "JSWINFRA",
+   "name": "JSW Infrastructure",
+   "sector": "Maritime Industries",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2330001567
+  },
+  {
+   "symbol": "JSWSTEEL",
+   "name": "JSW Steel",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2445453966
+  },
+  {
+   "symbol": "JAINREC",
+   "name": "Jain Resource Recycling",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 345085814
+  },
+  {
+   "symbol": "JPPOWER",
+   "name": "Jaiprakash Power Ventures",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 6853458827
+  },
+  {
+   "symbol": "J&KBANK",
+   "name": "Jammu & Kashmir Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1101182463
+  },
+  {
+   "symbol": "JAMNAAUTO",
+   "name": "Jamna Auto Industries",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 399985135
+  },
+  {
+   "symbol": "JSFB",
+   "name": "Jana Small Finance Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 105752539
+  },
+  {
+   "symbol": "JAYNECOIND",
+   "name": "Jayaswal Neco Industries",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 970998244
+  },
+  {
+   "symbol": "JSLL",
+   "name": "Jeena Sikho Lifecare",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 124300730
+  },
+  {
+   "symbol": "JINDALSAW",
+   "name": "Jindal Saw",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 639508234
+  },
+  {
+   "symbol": "JSL",
+   "name": "Jindal Stainless",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 824419588
+  },
+  {
+   "symbol": "JINDALSTEL",
+   "name": "Jindal Steel",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1020088097
+  },
+  {
+   "symbol": "JIOFIN",
+   "name": "Jio Financial Services",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 6603141623
+  },
+  {
+   "symbol": "JUBLFOOD",
+   "name": "Jubilant Foodworks",
+   "sector": "Food & Beverages",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 659845200
+  },
+  {
+   "symbol": "JUBLINGREA",
+   "name": "Jubilant Ingrevia",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 159281139
+  },
+  {
+   "symbol": "JUBLPHARMA",
+   "name": "Jubilant Pharmova",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 159281139
+  },
+  {
+   "symbol": "JWL",
+   "name": "Jupiter Wagons",
+   "sector": "Railways",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 427370389
+  },
+  {
+   "symbol": "JUSTDIAL",
+   "name": "Justdial",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [],
+   "shares": 85049032
+  },
+  {
+   "symbol": "JYOTHYLAB",
+   "name": "Jyothy Labs",
+   "sector": "FMCG",
+   "indices": [],
+   "shares": 367214511
+  },
+  {
+   "symbol": "JYOTICNC",
+   "name": "Jyoti CNC Automation",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 227423096
+  },
+  {
+   "symbol": "KPRMILL",
+   "name": "K.P.R. Mill",
+   "sector": "Textiles",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 341814000
+  },
+  {
+   "symbol": "KEI",
+   "name": "KEI Industries",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 95600595
+  },
+  {
+   "symbol": "KNRCON",
+   "name": "KNR Constructions",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 281234600
+  },
+  {
+   "symbol": "KPIGREEN",
+   "name": "KPI Green Energy",
+   "sector": "Power",
+   "indices": [],
+   "shares": 197671968
+  },
+  {
+   "symbol": "KPITTECH",
+   "name": "KPIT Technologies",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 274143808
+  },
+  {
+   "symbol": "KRBL",
+   "name": "KRBL",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 228889892
+  },
+  {
+   "symbol": "KRN",
+   "name": "KRN HEAT EXCHANGER AND REFRIGERATION",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 65458486
+  },
+  {
+   "symbol": "KSB",
+   "name": "KSB",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 174039220
+  },
+  {
+   "symbol": "KAJARIACER",
+   "name": "Kajaria Ceramics",
+   "sector": "Ceramic Products",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 157143050
+  },
+  {
+   "symbol": "KPIL",
+   "name": "Kalpataru Projects International",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 170772546
+  },
+  {
+   "symbol": "KALYANKJIL",
+   "name": "Kalyan Jewellers India",
+   "sector": "Jewellery",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1032750972
+  },
+  {
+   "symbol": "KANSAINER",
+   "name": "Kansai Nerolac Paints",
+   "sector": "Paints",
+   "indices": [],
+   "shares": 808778779
+  },
+  {
+   "symbol": "KTKBANK",
+   "name": "Karnataka Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 378387004
+  },
+  {
+   "symbol": "KARURVYSYA",
+   "name": "Karur Vysya Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 966561189
+  },
+  {
+   "symbol": "KSCL",
+   "name": "Kaveri Seed Company",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 51439071
+  },
+  {
+   "symbol": "KAYNES",
+   "name": "Kaynes Technology India",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 67034654
+  },
+  {
+   "symbol": "KEC",
+   "name": "Kec International",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 266200000
+  },
+  {
+   "symbol": "KFINTECH",
+   "name": "Kfin Technologies",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 172872079
+  },
+  {
+   "symbol": "KIRLOSBROS",
+   "name": "Kirloskar Brothers",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 79408926
+  },
+  {
+   "symbol": "KIRLOSENG",
+   "name": "Kirloskar Oil Eng",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 145519854
+  },
+  {
+   "symbol": "KIRLPNU",
+   "name": "Kirloskar Pneumatic Company",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 129926380
+  },
+  {
+   "symbol": "KITEX",
+   "name": "Kitex Garments",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 199500000
+  },
+  {
+   "symbol": "KMEW",
+   "name": "Knowledge Marine & Engineering Works",
+   "sector": "Maritime Industries",
+   "indices": [],
+   "shares": 126821585
+  },
+  {
+   "symbol": "KOTAKBANK",
+   "name": "Kotak Mahindra Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 9947656028
+  },
+  {
+   "symbol": "KIMS",
+   "name": "Krishna Institute of Medical Sciences",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 420006484
+  },
+  {
+   "symbol": "KWIL",
+   "name": "Kwality Wall's (India)",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 2349591262
+  },
+  {
+   "symbol": "LTF",
+   "name": "L&T Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2506352570
+  },
+  {
+   "symbol": "LTTS",
+   "name": "L&T Technology Services",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 106086268
+  },
+  {
+   "symbol": "LGEINDIA",
+   "name": "LG Electronics India",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 678772392
+  },
+  {
+   "symbol": "LICHSGFIN",
+   "name": "LIC Housing Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 550063000
+  },
+  {
+   "symbol": "LTFOODS",
+   "name": "LT Foods",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 347252944
+  },
+  {
+   "symbol": "LTM",
+   "name": "LTM",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 296621321
+  },
+  {
+   "symbol": "LT",
+   "name": "Larsen & Toubro",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1375894989
+  },
+  {
+   "symbol": "LATENTVIEW",
+   "name": "Latent View Analytics",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 207083230
+  },
+  {
+   "symbol": "LAURUSLABS",
+   "name": "Laurus Labs",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 540312218
+  },
+  {
+   "symbol": "LXCHEM",
+   "name": "Laxmi Organic Industries",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 277914693
+  },
+  {
+   "symbol": "IXIGO",
+   "name": "Le Travenues Technology",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [],
+   "shares": 441085150
+  },
+  {
+   "symbol": "THELEELA",
+   "name": "Leela Palaces Hotels & Resorts",
+   "sector": "Hospitality",
+   "indices": [],
+   "shares": 333957878
+  },
+  {
+   "symbol": "LEMONTREE",
+   "name": "Lemon Tree Hotels",
+   "sector": "Hospitality",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 792246464
+  },
+  {
+   "symbol": "LENSKART",
+   "name": "Lenskart Solutions",
+   "sector": "Retail Chains",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1739306168
+  },
+  {
+   "symbol": "LICI",
+   "name": "Life Insurance Corporation of India",
+   "sector": "Insurance",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 12649995402
+  },
+  {
+   "symbol": "LINDEINDIA",
+   "name": "Linde India",
+   "sector": "Chemicals",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 85284223
+  },
+  {
+   "symbol": "LLOYDSENGG",
+   "name": "Lloyds Engineering Works",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 1547638929
+  },
+  {
+   "symbol": "LLOYDSENT",
+   "name": "Lloyds Enterprises",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 1526216272
+  },
+  {
+   "symbol": "LLOYDSME",
+   "name": "Lloyds Metals And Energy",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 562906951
+  },
+  {
+   "symbol": "LODHA",
+   "name": "Lodha Developers",
+   "sector": "Real Estate",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 999335096
+  },
+  {
+   "symbol": "LUMAXTECH",
+   "name": "Lumax Auto Technologies",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 68157705
+  },
+  {
+   "symbol": "LUMAXIND",
+   "name": "Lumax Industries",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 9347732
+  },
+  {
+   "symbol": "LUPIN",
+   "name": "Lupin",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 457289972
+  },
+  {
+   "symbol": "MMTC",
+   "name": "MMTC",
+   "sector": "Distributors",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1500000000
+  },
+  {
+   "symbol": "MOIL",
+   "name": "MOIL",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 203485211
+  },
+  {
+   "symbol": "MRF",
+   "name": "MRF",
+   "sector": "Tyre",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 4241143
+  },
+  {
+   "symbol": "MSTCLTD",
+   "name": "MSTC",
+   "sector": "Distributors",
+   "indices": [],
+   "shares": 70400000
+  },
+  {
+   "symbol": "MTARTECH",
+   "name": "MTAR Technologies",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 30759591
+  },
+  {
+   "symbol": "MBAPL",
+   "name": "Madhya Bharat Agro Products",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 458857700
+  },
+  {
+   "symbol": "MGL",
+   "name": "Mahanagar Gas",
+   "sector": "Gas Distribution",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 98777778
+  },
+  {
+   "symbol": "M&MFIN",
+   "name": "Mahindra & Mahindra Financial Services",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1390191160
+  },
+  {
+   "symbol": "M&M",
+   "name": "Mahindra & Mahindra",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1243528831
+  },
+  {
+   "symbol": "MANAPPURAM",
+   "name": "Manappuram Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 939336102
+  },
+  {
+   "symbol": "MRPL",
+   "name": "Mangalore Refinery & Petrochemicals",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1752598777
+  },
+  {
+   "symbol": "MANKIND",
+   "name": "Mankind Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 413045090
+  },
+  {
+   "symbol": "MANORAMA",
+   "name": "Manorama Industries",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 63122390
+  },
+  {
+   "symbol": "MARICO",
+   "name": "Marico",
+   "sector": "FMCG",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1300188450
+  },
+  {
+   "symbol": "MARKSANS",
+   "name": "Marksans Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 453288438
+  },
+  {
+   "symbol": "MARUTI",
+   "name": "Maruti Suzuki India",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 314402574
+  },
+  {
+   "symbol": "MASTEK",
+   "name": "Mastek",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 31006376
+  },
+  {
+   "symbol": "MFSL",
+   "name": "Max Financial Services",
+   "sector": "Insurance",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 345114771
+  },
+  {
+   "symbol": "MAXHEALTH",
+   "name": "Max Healthcare Institute",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 973310251
+  },
+  {
+   "symbol": "MAZDOCK",
+   "name": "Mazagoan Dock Shipbuilders",
+   "sector": "Defence",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 403380000
+  },
+  {
+   "symbol": "MEDPLUS",
+   "name": "Medplus Health Services",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 120137061
+  },
+  {
+   "symbol": "MEESHO",
+   "name": "Meesho",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 4626220635
+  },
+  {
+   "symbol": "METROPOLIS",
+   "name": "Metropolis Healthcare",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 207387568
+  },
+  {
+   "symbol": "MINDACORP",
+   "name": "Minda Corporation",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 239079428
+  },
+  {
+   "symbol": "MIDHANI",
+   "name": "Mishra Dhatu Nigam",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 187340000
+  },
+  {
+   "symbol": "MSUMI",
+   "name": "Motherson Sumi Wiring India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 6631661898
+  },
+  {
+   "symbol": "MOTILALOFS",
+   "name": "Motilal Oswal Financial Services",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 602977213
+  },
+  {
+   "symbol": "MPHASIS",
+   "name": "MphasiS",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 190950043
+  },
+  {
+   "symbol": "BECTORFOOD",
+   "name": "Mrs. Bectors Food Specialities",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 306990595
+  },
+  {
+   "symbol": "MCX",
+   "name": "Multi Commodity Exchange of India",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 254991845
+  },
+  {
+   "symbol": "MUTHOOTFIN",
+   "name": "Muthoot Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 401468476
+  },
+  {
+   "symbol": "NATCOPHARM",
+   "name": "NATCO Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 196167953
+  },
+  {
+   "symbol": "NBCC",
+   "name": "NBCC (India)",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 2700000000
+  },
+  {
+   "symbol": "NCC",
+   "name": "NCC",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 627846588
+  },
+  {
+   "symbol": "NEOGEN",
+   "name": "NEOGEN CHEMICALS",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 30042427
+  },
+  {
+   "symbol": "NHPC",
+   "name": "NHPC",
+   "sector": "Power",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 10045034805
+  },
+  {
+   "symbol": "NLCINDIA",
+   "name": "NLC India",
+   "sector": "Power",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1386636609
+  },
+  {
+   "symbol": "NMDC",
+   "name": "NMDC",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 8791817550
+  },
+  {
+   "symbol": "NSLNISP",
+   "name": "NMDC Steel",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 2930605850
+  },
+  {
+   "symbol": "NTPCGREEN",
+   "name": "NTPC Green Energy",
+   "sector": "Power",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 8426329669
+  },
+  {
+   "symbol": "NTPC",
+   "name": "NTPC",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 9696666134
+  },
+  {
+   "symbol": "NH",
+   "name": "Narayana Hrudayalaya",
+   "sector": "Healthcare",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 204360804
+  },
+  {
+   "symbol": "NATIONALUM",
+   "name": "National Aluminium Co.",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1836631787
+  },
+  {
+   "symbol": "NFL",
+   "name": "National Fertilizers",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 490578400
+  },
+  {
+   "symbol": "NAVA",
+   "name": "Nava",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 283312597
+  },
+  {
+   "symbol": "NAVINFLUOR",
+   "name": "Navin Fluorine International",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 51292374
+  },
+  {
+   "symbol": "NAZARA",
+   "name": "Nazara Technologies",
+   "sector": "Media & Entertainment",
+   "indices": [],
+   "shares": 370465024
+  },
+  {
+   "symbol": "NEPHROPLUS",
+   "name": "Nephrocare Health Services",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 100559014
+  },
+  {
+   "symbol": "NESTLEIND",
+   "name": "Nestle India",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1928314320
+  },
+  {
+   "symbol": "NETWEB",
+   "name": "Netweb Technologies India",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 59447551
+  },
+  {
+   "symbol": "NETWORK18",
+   "name": "Network18 Media & Investments",
+   "sector": "Media & Entertainment",
+   "indices": [],
+   "shares": 1542000018
+  },
+  {
+   "symbol": "NEULANDLAB",
+   "name": "Neuland Laboratories",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 12829889
+  },
+  {
+   "symbol": "NEWGEN",
+   "name": "Newgen Software Technologies",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 142510002
+  },
+  {
+   "symbol": "NAM-INDIA",
+   "name": "Nippon Life India Asset Management",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 640041982
+  },
+  {
+   "symbol": "NIVABUPA",
+   "name": "Niva Bupa Health Insurance Company",
+   "sector": "Insurance",
+   "indices": [],
+   "shares": 1849644703
+  },
+  {
+   "symbol": "NORTHARC",
+   "name": "Northern Arc Capital",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 161807875
+  },
+  {
+   "symbol": "NUVAMA",
+   "name": "Nuvama Wealth Management",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 184515689
+  },
+  {
+   "symbol": "NUVOCO",
+   "name": "Nuvoco Vistas Corporation",
+   "sector": "Cement",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 357156153
+  },
+  {
+   "symbol": "OBEROIRLTY",
+   "name": "Oberoi Realty",
+   "sector": "Real Estate",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 363602237
+  },
+  {
+   "symbol": "ONGC",
+   "name": "Oil & Natural Gas Corporation",
+   "sector": "Oil",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 12580279206
+  },
+  {
+   "symbol": "OIL",
+   "name": "Oil India",
+   "sector": "Oil",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1626607791
+  },
+  {
+   "symbol": "OLAELEC",
+   "name": "Ola Electric Mobility",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 4628408313
+  },
+  {
+   "symbol": "OLECTRA",
+   "name": "Olectra Greentech",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 82080737
+  },
+  {
+   "symbol": "OMNI",
+   "name": "Omnitech Engineering",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 123666020
+  },
+  {
+   "symbol": "KISSHT",
+   "name": "OnEMI Technology Solutions",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 177269272
+  },
+  {
+   "symbol": "PAYTM",
+   "name": "One 97 Communications",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 641607824
+  },
+  {
+   "symbol": "ONESOURCE",
+   "name": "Onesource Specialty Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 114672891
+  },
+  {
+   "symbol": "OFSS",
+   "name": "Oracle Financial Services Software",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 87083127
+  },
+  {
+   "symbol": "OSWALPUMPS",
+   "name": "Oswal Pumps",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 114004897
+  },
+  {
+   "symbol": "PNGJL",
+   "name": "P N Gadgil Jewellers",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 147202585
+  },
+  {
+   "symbol": "POLICYBZR",
+   "name": "PB Fintech",
+   "sector": "Insurance",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 462752755
+  },
+  {
+   "symbol": "PCJEWELLER",
+   "name": "PC Jeweller",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 9752134855
+  },
+  {
+   "symbol": "PCBL",
+   "name": "PCBL Chemical",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 393462604
+  },
+  {
+   "symbol": "PDSL",
+   "name": "PDS",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 141460433
+  },
+  {
+   "symbol": "PGEL",
+   "name": "PG Electroplast",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 286757108
+  },
+  {
+   "symbol": "PIIND",
+   "name": "PI Industries",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 151718118
+  },
+  {
+   "symbol": "PNBHOUSING",
+   "name": "PNB Housing Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 260803913
+  },
+  {
+   "symbol": "PNCINFRA",
+   "name": "PNC Infratech",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 256539165
+  },
+  {
+   "symbol": "PTC",
+   "name": "PTC India",
+   "sector": "Power",
+   "indices": [],
+   "shares": 296008321
+  },
+  {
+   "symbol": "PTCIL",
+   "name": "PTC Industries",
+   "sector": "Defence",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 15847249
+  },
+  {
+   "symbol": "PVRINOX",
+   "name": "PVR INOX",
+   "sector": "Media & Entertainment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 98199962
+  },
+  {
+   "symbol": "PAGEIND",
+   "name": "Page Industries",
+   "sector": "Apparel and Clothes",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 11153874
+  },
+  {
+   "symbol": "PAISALO",
+   "name": "Paisalo Digital",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 914149114
+  },
+  {
+   "symbol": "PARADEEP",
+   "name": "Paradeep Phosphates",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1038520250
+  },
+  {
+   "symbol": "PARAS",
+   "name": "Paras Defence and Space Technologies",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 80587330
+  },
+  {
+   "symbol": "PARKHOSPS",
+   "name": "Park Medi World",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 431930864
+  },
+  {
+   "symbol": "PATANJALI",
+   "name": "Patanjali Foods",
+   "sector": "Food & Beverages",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1088108595
+  },
+  {
+   "symbol": "PGIL",
+   "name": "Pearl Global Industries",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 92381084
+  },
+  {
+   "symbol": "PERSISTENT",
+   "name": "Persistent Systems",
+   "sector": "Information Technology",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 157750000
+  },
+  {
+   "symbol": "PETRONET",
+   "name": "Petronet LNG",
+   "sector": "Gas Distribution",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 1500000088
+  },
+  {
+   "symbol": "PFIZER",
+   "name": "Pfizer",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 45747732
+  },
+  {
+   "symbol": "PHOENIXLTD",
+   "name": "Phoenix Mills",
+   "sector": "Real Estate",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 357677858
+  },
+  {
+   "symbol": "PWL",
+   "name": "Physicswallah",
+   "sector": "Education",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 2905008832
+  },
+  {
+   "symbol": "PICCADIL",
+   "name": "Piccadily Agro Industries",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 98572144
+  },
+  {
+   "symbol": "PIDILITIND",
+   "name": "Pidilite Industries",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 1017879688
+  },
+  {
+   "symbol": "PINELABS",
+   "name": "Pine Labs",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1153858090
+  },
+  {
+   "symbol": "PIRAMALFIN",
+   "name": "Piramal Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 236630306
+  },
+  {
+   "symbol": "PPLPHARMA",
+   "name": "Piramal Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1331348130
+  },
+  {
+   "symbol": "POLYMED",
+   "name": "Poly Medicure",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 101361465
+  },
+  {
+   "symbol": "POLYCAB",
+   "name": "Polycab India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 150691588
+  },
+  {
+   "symbol": "POONAWALLA",
+   "name": "Poonawalla Fincorp",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 880575662
+  },
+  {
+   "symbol": "PFC",
+   "name": "Power Finance Corporation",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3300101760
+  },
+  {
+   "symbol": "POWERGRID",
+   "name": "Power Grid Corporation of India",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 9300603819
+  },
+  {
+   "symbol": "POWERMECH",
+   "name": "Power Mech Projects",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 31616292
+  },
+  {
+   "symbol": "POWERICA",
+   "name": "Powerica",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 126551877
+  },
+  {
+   "symbol": "PRAJIND",
+   "name": "Praj Industries",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 183813088
+  },
+  {
+   "symbol": "PRECWIRE",
+   "name": "Precision Wires India",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 182807975
+  },
+  {
+   "symbol": "PREMIERENE",
+   "name": "Premier Energies",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 453951510
+  },
+  {
+   "symbol": "PRESTIGE",
+   "name": "Prestige Estates Projects",
+   "sector": "Real Estate",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 430730232
+  },
+  {
+   "symbol": "PRICOLLTD",
+   "name": "Pricol",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 121881498
+  },
+  {
+   "symbol": "PFOCUS",
+   "name": "Prime Focus",
+   "sector": "Media & Entertainment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 778773880
+  },
+  {
+   "symbol": "PRIVISCL",
+   "name": "Privi Speciality Chemicals",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 39062706
+  },
+  {
+   "symbol": "PGHL",
+   "name": "Procter & Gamble Health",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 16599382
+  },
+  {
+   "symbol": "PNB",
+   "name": "Punjab National Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 11492943268
+  },
+  {
+   "symbol": "PURVA",
+   "name": "Puravankara",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 237149686
+  },
+  {
+   "symbol": "QPOWER",
+   "name": "QUALITY POWER ELECTRICAL EQUIPMENTS",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 77444100
+  },
+  {
+   "symbol": "QUESS",
+   "name": "Quess Corp",
+   "sector": "Professional Services",
+   "indices": [],
+   "shares": 149385918
+  },
+  {
+   "symbol": "RRKABEL",
+   "name": "R R Kabel",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 113105505
+  },
+  {
+   "symbol": "RBLBANK",
+   "name": "RBL Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1551642481
+  },
+  {
+   "symbol": "RECLTD",
+   "name": "REC",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2633224000
+  },
+  {
+   "symbol": "RHIM",
+   "name": "RHI MAGNESITA INDIA",
+   "sector": "Refractories",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 206501426
+  },
+  {
+   "symbol": "RITES",
+   "name": "RITES",
+   "sector": "Railways",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 480603774
+  },
+  {
+   "symbol": "RADICO",
+   "name": "Radico Khaitan",
+   "sector": "Food & Beverages",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 133982398
+  },
+  {
+   "symbol": "RVNL",
+   "name": "Rail Vikas Nigam",
+   "sector": "Railways",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2085020100
+  },
+  {
+   "symbol": "RAILTEL",
+   "name": "Railtel Corporation Of India",
+   "sector": "Telecom",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 320938407
+  },
+  {
+   "symbol": "RAIN",
+   "name": "Rain Industries",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 336345679
+  },
+  {
+   "symbol": "RAINBOW",
+   "name": "Rainbow Childrens Medicare",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 101566639
+  },
+  {
+   "symbol": "RALLIS",
+   "name": "Rallis India",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 194468890
+  },
+  {
+   "symbol": "RKFORGE",
+   "name": "Ramkrishna Forgings",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 182170017
+  },
+  {
+   "symbol": "RCF",
+   "name": "Rashtriya Chemicals & Fertilizers",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 551688100
+  },
+  {
+   "symbol": "RATEGAIN",
+   "name": "Rategain Travel Technologies",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 118532882
+  },
+  {
+   "symbol": "RATNAMANI",
+   "name": "Ratnamani Metals & Tubes",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 70092000
+  },
+  {
+   "symbol": "RTNPOWER",
+   "name": "RattanIndia Power",
+   "sector": "Power",
+   "indices": [],
+   "shares": 5370105860
+  },
+  {
+   "symbol": "RAYMONDLSL",
+   "name": "Raymond Lifestyle",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 60923629
+  },
+  {
+   "symbol": "REDINGTON",
+   "name": "Redington",
+   "sector": "Distributors",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 781774431
+  },
+  {
+   "symbol": "REFEX",
+   "name": "Refex Industries",
+   "sector": "Waste Management",
+   "indices": [],
+   "shares": 137228548
+  },
+  {
+   "symbol": "RELAXO",
+   "name": "Relaxo Footwears",
+   "sector": "Footwear",
+   "indices": [],
+   "shares": 248938586
+  },
+  {
+   "symbol": "RELIANCE",
+   "name": "Reliance Industries",
+   "sector": "Oil",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 13532538722
+  },
+  {
+   "symbol": "RPOWER",
+   "name": "Reliance Power",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 4135770966
+  },
+  {
+   "symbol": "RELIGARE",
+   "name": "Religare Enterprises",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 341233742
+  },
+  {
+   "symbol": "RESPONIND",
+   "name": "Responsive Industries",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 266608544
+  },
+  {
+   "symbol": "RBA",
+   "name": "Restaurant Brands Asia",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 712078330
+  },
+  {
+   "symbol": "ROUTE",
+   "name": "Route Mobile",
+   "sector": "Telecom",
+   "indices": [],
+   "shares": 63003082
+  },
+  {
+   "symbol": "RUBICON",
+   "name": "Rubicon Research",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 165531908
+  },
+  {
+   "symbol": "SJS",
+   "name": "S.J.S. Enterprises",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 32249529
+  },
+  {
+   "symbol": "SBFC",
+   "name": "SBFC Finance",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 1109022567
+  },
+  {
+   "symbol": "SBICARD",
+   "name": "SBI Cards and Payment Services",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 951643098
+  },
+  {
+   "symbol": "SBILIFE",
+   "name": "SBI Life Insurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 1003405073
+  },
+  {
+   "symbol": "SEDEMAC",
+   "name": "SEDEMAC Mechatronics",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 44170500
+  },
+  {
+   "symbol": "SGMART",
+   "name": "SG Mart",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 126035200
+  },
+  {
+   "symbol": "SIGMAADV",
+   "name": "SIGMA ADVANCED SYSTEMS",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 189496175
+  },
+  {
+   "symbol": "SJVN",
+   "name": "SJVN",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 3929795175
+  },
+  {
+   "symbol": "SKYGOLD",
+   "name": "SKY GOLD AND DIAMONDS",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 154873884
+  },
+  {
+   "symbol": "SMLMAH",
+   "name": "SML Mahindra",
+   "sector": "Auto Manufacturers",
+   "indices": [],
+   "shares": 14471646
+  },
+  {
+   "symbol": "SHRIPISTON",
+   "name": "SPR Auto Technologies",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 46386272
+  },
+  {
+   "symbol": "SRF",
+   "name": "SRF",
+   "sector": "Chemicals",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 296424825
+  },
+  {
+   "symbol": "LOTUSDEV",
+   "name": "SRI LOTUS DEVELOPERS AND REALTY",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 488723710
+  },
+  {
+   "symbol": "SAFARI",
+   "name": "Safari Industries (India)",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 48997306
+  },
+  {
+   "symbol": "SAGILITY",
+   "name": "Sagility",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 4681328413
+  },
+  {
+   "symbol": "SAILIFE",
+   "name": "Sai Life Sciences",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 212394216
+  },
+  {
+   "symbol": "SAMHI",
+   "name": "Samhi Hotels",
+   "sector": "Hospitality",
+   "indices": [],
+   "shares": 222359672
+  },
+  {
+   "symbol": "SAMMAANCAP",
+   "name": "Sammaan Capital",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1161543321
+  },
+  {
+   "symbol": "MOTHERSON",
+   "name": "Samvardhana Motherson International",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 10554442601
+  },
+  {
+   "symbol": "SANDUMA",
+   "name": "Sandur Manganese & Iron Ores",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 486104814
+  },
+  {
+   "symbol": "SANSERA",
+   "name": "Sansera Engineering",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 62403568
+  },
+  {
+   "symbol": "SAPPHIRE",
+   "name": "Sapphire Foods India",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 321382905
+  },
+  {
+   "symbol": "SARDAEN",
+   "name": "Sarda Energy and Minerals",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 352381270
+  },
+  {
+   "symbol": "SAREGAMA",
+   "name": "Saregama India",
+   "sector": "Media & Entertainment",
+   "indices": [],
+   "shares": 192809490
+  },
+  {
+   "symbol": "SCHAEFFLER",
+   "name": "Schaeffler India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 156303670
+  },
+  {
+   "symbol": "SCHNEIDER",
+   "name": "Schneider Electric Infrastructure",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 239104035
+  },
+  {
+   "symbol": "SENCO",
+   "name": "Senco Gold",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 163900959
+  },
+  {
+   "symbol": "SENORES",
+   "name": "Senores Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 46053588
+  },
+  {
+   "symbol": "SHADOWFAX",
+   "name": "Shadowfax Technologies",
+   "sector": "Logistics",
+   "indices": [],
+   "shares": 586887880
+  },
+  {
+   "symbol": "SHAILY",
+   "name": "Shaily Engineering Plastics",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 45995248
+  },
+  {
+   "symbol": "SHAKTIPUMP",
+   "name": "Shakti Pumps (India)",
+   "sector": "Engineering",
+   "indices": [],
+   "shares": 123397965
+  },
+  {
+   "symbol": "SHARDACROP",
+   "name": "Sharda Cropchem",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [],
+   "shares": 90220495
+  },
+  {
+   "symbol": "SHAREINDIA",
+   "name": "Share India Securities",
+   "sector": "Financial Services",
+   "indices": [],
+   "shares": 217492050
+  },
+  {
+   "symbol": "SFL",
+   "name": "Sheela Foam",
+   "sector": "Furniture",
+   "indices": [],
+   "shares": 109203314
+  },
+  {
+   "symbol": "SHILCTECH",
+   "name": "Shilchar Technologies",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 11440200
+  },
+  {
+   "symbol": "SHILPAMED",
+   "name": "Shilpa Medicare",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 195581816
+  },
+  {
+   "symbol": "SCI",
+   "name": "Shipping Corporation of India",
+   "sector": "Maritime Industries",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 465799010
+  },
+  {
+   "symbol": "SHREECEM",
+   "name": "Shree Cement",
+   "sector": "Cement",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 36080748
+  },
+  {
+   "symbol": "RENUKA",
+   "name": "Shree Renuka Sugars",
+   "sector": "Sugar",
+   "indices": [],
+   "shares": 2128489773
+  },
+  {
+   "symbol": "SHREEJISPG",
+   "name": "Shreeji Shipping Global",
+   "sector": "Maritime Industries",
+   "indices": [],
+   "shares": 162918254
+  },
+  {
+   "symbol": "SHRIRAMFIN",
+   "name": "Shriram Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2353045034
+  },
+  {
+   "symbol": "SHYAMMETL",
+   "name": "Shyam Metalics and Energy",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 279131853
+  },
+  {
+   "symbol": "ENRIN",
+   "name": "Siemens Energy India",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 356120505
+  },
+  {
+   "symbol": "SIEMENS",
+   "name": "Siemens",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 356120505
+  },
+  {
+   "symbol": "SIGNATURE",
+   "name": "Signatureglobal (India)",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 140686026
+  },
+  {
+   "symbol": "SKIPPER",
+   "name": "Skipper",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 122127437
+  },
+  {
+   "symbol": "SOBHA",
+   "name": "Sobha",
+   "sector": "Real Estate",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 106932806
+  },
+  {
+   "symbol": "SOLARINDS",
+   "name": "Solar Industries India",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 90490055
+  },
+  {
+   "symbol": "SONACOMS",
+   "name": "Sona BLW Precision Forgings",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 624128424
+  },
+  {
+   "symbol": "SONATSOFTW",
+   "name": "Sonata Software",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 280424816
+  },
+  {
+   "symbol": "SOUTHBANK",
+   "name": "South Indian Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 2619301068
+  },
+  {
+   "symbol": "STARHEALTH",
+   "name": "Star Health and Allied Insurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 588623619
+  },
+  {
+   "symbol": "SBIN",
+   "name": "State Bank of India",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 9230766786
+  },
+  {
+   "symbol": "SAIL",
+   "name": "Steel Authority of India",
+   "sector": "Metals & Mining",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 4130525289
+  },
+  {
+   "symbol": "SWSOLAR",
+   "name": "Sterling and Wilson Renewable Energy",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 233541391
+  },
+  {
+   "symbol": "STLTECH",
+   "name": "Sterlite Technologies",
+   "sector": "Telecom Equipment & Infra Services",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 514057433
+  },
+  {
+   "symbol": "STAR",
+   "name": "Strides Pharma Science",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 92172714
+  },
+  {
+   "symbol": "STYLAMIND",
+   "name": "Stylam Industries",
+   "sector": "Building Materials",
+   "indices": [],
+   "shares": 16948060
+  },
+  {
+   "symbol": "SUBROS",
+   "name": "Subros",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 65235750
+  },
+  {
+   "symbol": "SUDARSCHEM",
+   "name": "Sudarshan Chemical Industries",
+   "sector": "Chemicals",
+   "indices": [],
+   "shares": 79616357
+  },
+  {
+   "symbol": "SUDEEPPHRM",
+   "name": "Sudeep Pharma",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 112948625
+  },
+  {
+   "symbol": "SUMICHEM",
+   "name": "Sumitomo Chemical India",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 499145736
+  },
+  {
+   "symbol": "SPARC",
+   "name": "Sun Pharma Advanced Research Company",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 324499558
+  },
+  {
+   "symbol": "SUNPHARMA",
+   "name": "Sun Pharmaceutical Industries",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 2399334970
+  },
+  {
+   "symbol": "SUNTV",
+   "name": "Sun TV Network",
+   "sector": "Media & Entertainment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 394084620
+  },
+  {
+   "symbol": "SUNDARMFIN",
+   "name": "Sundaram Finance",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 111103860
+  },
+  {
+   "symbol": "SUNDRMFAST",
+   "name": "Sundram Fasteners",
+   "sector": "Auto Ancillary",
+   "indices": [],
+   "shares": 210128370
+  },
+  {
+   "symbol": "SUNFLAG",
+   "name": "Sunflag Iron & Steel Company",
+   "sector": "Metals & Mining",
+   "indices": [],
+   "shares": 180219448
+  },
+  {
+   "symbol": "SUNTECK",
+   "name": "Sunteck Realty",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 146842025
+  },
+  {
+   "symbol": "SUPREMEIND",
+   "name": "Supreme Industries",
+   "sector": "Plastic and Polymers",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 127026870
+  },
+  {
+   "symbol": "SPLPETRO",
+   "name": "Supreme Petrochem",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 188041342
+  },
+  {
+   "symbol": "SUPRIYA",
+   "name": "Supriya Lifescience",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 80482800
+  },
+  {
+   "symbol": "SURYAROSNI",
+   "name": "Surya Roshni",
+   "sector": "Electrical Appliances",
+   "indices": [],
+   "shares": 217635896
+  },
+  {
+   "symbol": "SUVEN",
+   "name": "Suven Life Sciences",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 282562686
+  },
+  {
+   "symbol": "SUZLON",
+   "name": "Suzlon Energy",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 13745587012
+  },
+  {
+   "symbol": "SWANCORP",
+   "name": "Swan Corp",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 313456886
+  },
+  {
+   "symbol": "SWIGGY",
+   "name": "Swiggy",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 2760313555
+  },
+  {
+   "symbol": "SYNGENE",
+   "name": "Syngene International",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 403669147
+  },
+  {
+   "symbol": "SYRMA",
+   "name": "Syrma SGS Technology",
+   "sector": "Electronic Manufacturers",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 192830485
+  },
+  {
+   "symbol": "TARC",
+   "name": "TARC",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 295096335
+  },
+  {
+   "symbol": "TBOTEK",
+   "name": "TBO Tek",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 108587787
+  },
+  {
+   "symbol": "TDPOWERSYS",
+   "name": "TD Power Systems",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 312456860
+  },
+  {
+   "symbol": "TTKPRESTIG",
+   "name": "TTK Prestige",
+   "sector": "Electrical Appliances",
+   "indices": [],
+   "shares": 136966384
+  },
+  {
+   "symbol": "TVSMOTOR",
+   "name": "TVS Motor Company",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 475087114
+  },
+  {
+   "symbol": "TVSSCS",
+   "name": "TVS Supply Chain Solutions",
+   "sector": "Logistics",
+   "indices": [],
+   "shares": 441223777
+  },
+  {
+   "symbol": "TMB",
+   "name": "Tamilnad Mercantile Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 158351454
+  },
+  {
+   "symbol": "TANLA",
+   "name": "Tanla Platforms",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 132634024
+  },
+  {
+   "symbol": "TATACAP",
+   "name": "Tata Capital",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 4244869037
+  },
+  {
+   "symbol": "TATACHEM",
+   "name": "Tata Chemicals",
+   "sector": "Chemicals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 254756278
+  },
+  {
+   "symbol": "TATACOMM",
+   "name": "Tata Communications",
+   "sector": "Telecom",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 285085643
+  },
+  {
+   "symbol": "TCS",
+   "name": "Tata Consultancy Services",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 3618087518
+  },
+  {
+   "symbol": "TATACONSUM",
+   "name": "Tata Consumer Products",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 989695175
+  },
+  {
+   "symbol": "TATAELXSI",
+   "name": "Tata Elxsi",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 62305731
+  },
+  {
+   "symbol": "TATAINVEST",
+   "name": "Tata Investment Corporation",
+   "sector": "Financial Services",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 505952960
+  },
+  {
+   "symbol": "TMCV",
+   "name": "Tata Motors",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3682789352
+  },
+  {
+   "symbol": "TMPV",
+   "name": "Tata Motors Passenger Vehicles",
+   "sector": "Auto Manufacturers",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 3683139553
+  },
+  {
+   "symbol": "TATAPOWER",
+   "name": "Tata Power Co.",
+   "sector": "Power",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3195339547
+  },
+  {
+   "symbol": "TATASTEEL",
+   "name": "Tata Steel",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 12483527171
+  },
+  {
+   "symbol": "TATATECH",
+   "name": "Tata Technologies",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 406051830
+  },
+  {
+   "symbol": "TTML",
+   "name": "Tata Teleservices (Maharashtra)",
+   "sector": "Telecom",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1954927727
+  },
+  {
+   "symbol": "TECHM",
+   "name": "Tech Mahindra",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 980159085
+  },
+  {
+   "symbol": "TECHNOE",
+   "name": "Techno Electric & Engineering Company",
+   "sector": "Infrastructure",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 116299574
+  },
+  {
+   "symbol": "TEGA",
+   "name": "Tega Industries",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 75127698
+  },
+  {
+   "symbol": "TEJASNET",
+   "name": "Tejas Networks",
+   "sector": "Telecom Equipment & Infra Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 178097603
+  },
+  {
+   "symbol": "TENNIND",
+   "name": "Tenneco Clean Air India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 403604309
+  },
+  {
+   "symbol": "TEXRAIL",
+   "name": "Texmaco Rail & Eng.",
+   "sector": "Railways",
+   "indices": [],
+   "shares": 406864572
+  },
+  {
+   "symbol": "THANGAMAYL",
+   "name": "Thangamayil Jewellery",
+   "sector": "Jewellery",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 31082021
+  },
+  {
+   "symbol": "NIACL",
+   "name": "The New India Assurance Company",
+   "sector": "Insurance",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 1648000000
+  },
+  {
+   "symbol": "RAMCOCEM",
+   "name": "The Ramco Cements",
+   "sector": "Cement",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 236292380
+  },
+  {
+   "symbol": "THERMAX",
+   "name": "Thermax",
+   "sector": "Engineering",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 119156300
+  },
+  {
+   "symbol": "THOMASCOOK",
+   "name": "Thomas Cook (India)",
+   "sector": "Hospitality",
+   "indices": [],
+   "shares": 470380562
+  },
+  {
+   "symbol": "THYROCARE",
+   "name": "Thyrocare Technologies",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 159165315
+  },
+  {
+   "symbol": "TI",
+   "name": "Tilaknagar Industries",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 247897900
+  },
+  {
+   "symbol": "TIMETECHNO",
+   "name": "Time Technoplast",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 493635379
+  },
+  {
+   "symbol": "TIMEX",
+   "name": "Timex Group India",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 100950000
+  },
+  {
+   "symbol": "TIMKEN",
+   "name": "Timken India",
+   "sector": "Bearings",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 75218734
+  },
+  {
+   "symbol": "TIPSMUSIC",
+   "name": "Tips Music",
+   "sector": "Media & Entertainment",
+   "indices": [],
+   "shares": 128426590
+  },
+  {
+   "symbol": "TITAGARH",
+   "name": "Titagarh Rail Systems",
+   "sector": "Railways",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 134673768
+  },
+  {
+   "symbol": "TITAN",
+   "name": "Titan Company",
+   "sector": "Jewellery",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 887786160
+  },
+  {
+   "symbol": "TORNTPHARM",
+   "name": "Torrent Pharmaceuticals",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 380367856
+  },
+  {
+   "symbol": "TORNTPOWER",
+   "name": "Torrent Power",
+   "sector": "Power",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 503903543
+  },
+  {
+   "symbol": "TARIL",
+   "name": "Transformers And Rectifiers (India)",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 300165834
+  },
+  {
+   "symbol": "TRANSRAILL",
+   "name": "Transrail Lighting",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 134256025
+  },
+  {
+   "symbol": "TRENT",
+   "name": "Trent",
+   "sector": "Retail Chains",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 533251981
+  },
+  {
+   "symbol": "TRIDENT",
+   "name": "Trident",
+   "sector": "Textiles",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 5095955670
+  },
+  {
+   "symbol": "TRITURBINE",
+   "name": "Triveni Turbine",
+   "sector": "Engineering",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 317898459
+  },
+  {
+   "symbol": "TIINDIA",
+   "name": "Tube Investments of India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 193572320
+  },
+  {
+   "symbol": "UCOBANK",
+   "name": "UCO Bank",
+   "sector": "Banks",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 12539558979
+  },
+  {
+   "symbol": "UNOMINDA",
+   "name": "UNO Minda",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 577558876
+  },
+  {
+   "symbol": "UPL",
+   "name": "UPL",
+   "sector": "Agriculture & Allied Industries",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 844169318
+  },
+  {
+   "symbol": "UTIAMC",
+   "name": "UTI Asset Management Company",
+   "sector": "Financial Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 128540222
+  },
+  {
+   "symbol": "UJJIVANSFB",
+   "name": "Ujjivan Small Finance Bank",
+   "sector": "Banks",
+   "indices": [],
+   "shares": 1951056342
+  },
+  {
+   "symbol": "ULTRACEMCO",
+   "name": "UltraTech Cement",
+   "sector": "Cement",
+   "indices": [
+    "nifty100",
+    "nifty50",
+    "nifty500"
+   ],
+   "shares": 294679171
+  },
+  {
+   "symbol": "UNIMECH",
+   "name": "Unimech Aerospace and Manufacturing",
+   "sector": "Defence",
+   "indices": [],
+   "shares": 50901997
+  },
+  {
+   "symbol": "UNIONBANK",
+   "name": "Union Bank of India",
+   "sector": "Banks",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 7633605607
+  },
+  {
+   "symbol": "UBL",
+   "name": "United Breweries",
+   "sector": "Food & Beverages",
+   "indices": [
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 264405149
+  },
+  {
+   "symbol": "UNITDSPR",
+   "name": "United Spirits",
+   "sector": "Food & Beverages",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 727350853
+  },
+  {
+   "symbol": "URBANCO",
+   "name": "Urban Company",
+   "sector": "E-Commerce/App based Aggregator",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 1542180603
+  },
+  {
+   "symbol": "USHAMART",
+   "name": "Usha Martin",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 304741780
+  },
+  {
+   "symbol": "VGUARD",
+   "name": "V-Guard Industries",
+   "sector": "Electrical Appliances",
+   "indices": [],
+   "shares": 436914967
+  },
+  {
+   "symbol": "VMART",
+   "name": "V-Mart Retail",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 79575390
+  },
+  {
+   "symbol": "VIPIND",
+   "name": "V.I.P. Industries",
+   "sector": "Plastic and Polymers",
+   "indices": [],
+   "shares": 142053696
+  },
+  {
+   "symbol": "V2RETAIL",
+   "name": "V2 Retail",
+   "sector": "Retail Chains",
+   "indices": [],
+   "shares": 364637550
+  },
+  {
+   "symbol": "DBREALTY",
+   "name": "VALOR ESTATE",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 542406761
+  },
+  {
+   "symbol": "WABAG",
+   "name": "Va Tech Wabag",
+   "sector": "Water Distribution",
+   "indices": [],
+   "shares": 62491568
+  },
+  {
+   "symbol": "VAIBHAVGBL",
+   "name": "Vaibhav Global",
+   "sector": "Jewellery",
+   "indices": [],
+   "shares": 167769696
+  },
+  {
+   "symbol": "VTL",
+   "name": "Vardhman Textiles",
+   "sector": "Textiles",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 289576800
+  },
+  {
+   "symbol": "VBL",
+   "name": "Varun Beverages",
+   "sector": "Food & Beverages",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3382494644
+  },
+  {
+   "symbol": "MANYAVAR",
+   "name": "Vedant Fashions",
+   "sector": "Apparel and Clothes",
+   "indices": [],
+   "shares": 242978245
+  },
+  {
+   "symbol": "VAML",
+   "name": "Vedanta Aluminium Metal",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3910388057
+  },
+  {
+   "symbol": "VISL",
+   "name": "Vedanta Iron and Steel",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 3910388057
+  },
+  {
+   "symbol": "VEDL",
+   "name": "Vedanta",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 3910388057
+  },
+  {
+   "symbol": "VOGL",
+   "name": "Vedanta Oil and Gas",
+   "sector": "Oil",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 3910388057
+  },
+  {
+   "symbol": "VEDPOWER",
+   "name": "Vedanta Power",
+   "sector": "Power",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 3910388057
+  },
+  {
+   "symbol": "VESUVIUS",
+   "name": "Vesuvius India",
+   "sector": "Refractories",
+   "indices": [],
+   "shares": 202960800
+  },
+  {
+   "symbol": "VIJAYA",
+   "name": "Vijaya Diagnostic Centre",
+   "sector": "Healthcare",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 102997715
+  },
+  {
+   "symbol": "VIKRAMSOLR",
+   "name": "Vikram Solar",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 362354381
+  },
+  {
+   "symbol": "VMM",
+   "name": "Vishal Mega Mart",
+   "sector": "Retail Chains",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 4684808639
+  },
+  {
+   "symbol": "VIYASH",
+   "name": "Viyash Scientific",
+   "sector": "Pharmaceuticals",
+   "indices": [],
+   "shares": 441627670
+  },
+  {
+   "symbol": "IDEA",
+   "name": "Vodafone Idea",
+   "sector": "Telecom",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 108343035001
+  },
+  {
+   "symbol": "VOLTAMP",
+   "name": "Voltamp Transformers",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 10117120
+  },
+  {
+   "symbol": "VOLTAS",
+   "name": "Voltas",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 330884740
+  },
+  {
+   "symbol": "WAAREEENER",
+   "name": "Waaree Energies",
+   "sector": "Electrical Equipment",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 287651335
+  },
+  {
+   "symbol": "WAAREERTL",
+   "name": "Waaree Renewable Technologies",
+   "sector": "Power",
+   "indices": [],
+   "shares": 104379217
+  },
+  {
+   "symbol": "WAKEFIT",
+   "name": "Wakefit Innovations",
+   "sector": "Furniture",
+   "indices": [],
+   "shares": 331645219
+  },
+  {
+   "symbol": "WEWORK",
+   "name": "WeWork India Management",
+   "sector": "Real Estate",
+   "indices": [],
+   "shares": 138870213
+  },
+  {
+   "symbol": "WEBELSOLAR",
+   "name": "Websol Energy System",
+   "sector": "Electrical Equipment",
+   "indices": [],
+   "shares": 434163470
+  },
+  {
+   "symbol": "WELCORP",
+   "name": "Welspun Corp",
+   "sector": "Metals & Mining",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 263790645
+  },
+  {
+   "symbol": "WELENT",
+   "name": "Welspun Enterprises",
+   "sector": "Infrastructure",
+   "indices": [],
+   "shares": 138413810
+  },
+  {
+   "symbol": "WELSPUNLIV",
+   "name": "Welspun Living",
+   "sector": "Textiles",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 944752514
+  },
+  {
+   "symbol": "WESTLIFE",
+   "name": "Westlife Foodworld",
+   "sector": "Food & Beverages",
+   "indices": [],
+   "shares": 155936165
+  },
+  {
+   "symbol": "WHIRLPOOL",
+   "name": "Whirlpool of India",
+   "sector": "Electrical Appliances",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 126871830
+  },
+  {
+   "symbol": "WIPRO",
+   "name": "Wipro",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 9905245732
+  },
+  {
+   "symbol": "WOCKPHARMA",
+   "name": "Wockhardt",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty500",
+    "smallcap100",
+    "smallcap250"
+   ],
+   "shares": 162492169
+  },
+  {
+   "symbol": "YATHARTH",
+   "name": "Yatharth Hospital & Trauma Care Services",
+   "sector": "Healthcare",
+   "indices": [],
+   "shares": 96354357
+  },
+  {
+   "symbol": "YESBANK",
+   "name": "Yes Bank",
+   "sector": "Banks",
+   "indices": [
+    "midcap100",
+    "midcap150",
+    "nifty500"
+   ],
+   "shares": 31388445931
+  },
+  {
+   "symbol": "ZFCVINDIA",
+   "name": "ZF Commercial Vehicle Control Systems India",
+   "sector": "Auto Ancillary",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 113805504
+  },
+  {
+   "symbol": "ZAGGLE",
+   "name": "Zaggle Prepaid Ocean Services",
+   "sector": "Information Technology",
+   "indices": [],
+   "shares": 134458445
+  },
+  {
+   "symbol": "ZEEL",
+   "name": "Zee Entertainment Enterprises",
+   "sector": "Media & Entertainment",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 960519420
+  },
+  {
+   "symbol": "ZENTEC",
+   "name": "Zen Technologies",
+   "sector": "Defence",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 90290356
+  },
+  {
+   "symbol": "ZENSARTECH",
+   "name": "Zensar Technolgies",
+   "sector": "Information Technology",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 227580713
+  },
+  {
+   "symbol": "ZYDUSLIFE",
+   "name": "Zydus Lifesciences",
+   "sector": "Pharmaceuticals",
+   "indices": [
+    "nifty100",
+    "nifty500"
+   ],
+   "shares": 997503832
+  },
+  {
+   "symbol": "ZYDUSWELL",
+   "name": "Zydus Wellness",
+   "sector": "FMCG",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 318160720
+  },
+  {
+   "symbol": "ECLERX",
+   "name": "eClerx Services",
+   "sector": "Professional Services",
+   "indices": [
+    "nifty500",
+    "smallcap250"
+   ],
+   "shares": 94050718
+  }
+ ]
+}

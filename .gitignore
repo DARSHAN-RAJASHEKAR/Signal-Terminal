@@ -160,3 +160,7 @@ debug.log
 .claude/
 # Local notes
 todo.txt
+
+# Quant screener — removed from the app, kept locally only
+quant-backend/
+backend/quant/

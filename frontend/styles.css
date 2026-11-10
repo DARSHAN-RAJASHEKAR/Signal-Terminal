@@ -79,6 +79,16 @@ body {
   cursor: pointer;
 }
 
+.sb-home {
+  color: var(--textDim);
+  text-decoration: none;
+  transition: color 120ms;
+}
+
+.sb-home:hover {
+  color: var(--amber);
+}
+
 .sb-dot {
   color: var(--amber);
   margin: 0 1px;
@@ -1469,6 +1479,21 @@ body {
     gap: 4px;
     align-items: flex-start;
   }
+}
+
+/* ── Footer links (shared by all pages) ── */
+.foot-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--borderH);
+  transition: color 120ms, border-color 120ms;
+}
+
+.foot-link:hover,
+.foot-link:focus-visible {
+  color: var(--amber);
+  border-bottom-color: var(--amber);
+  outline: none;
 }
 
 /* ── Scrollbar polish ──────────────────────────────────────── */

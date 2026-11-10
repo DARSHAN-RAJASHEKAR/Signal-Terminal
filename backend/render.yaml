@@ -14,27 +14,5 @@ services:
         value: production
       - key: BINANCE_API_KEY
         sync: false
-
-  - type: web
-    name: quant-backend
-    env: python
-    plan: free
-    region: frankfurt
-    rootDir: quant-backend
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
-    envVars:
       - key: PYTHON_VERSION
         value: 3.12.13
-      - key: UPSTOX_ACCESS_TOKEN
-        sync: false
-      - key: TRENDLYNE_MCP_URL
-        sync: false
-      - key: TURSO_DATABASE_URL
-        sync: false
-      - key: TURSO_AUTH_TOKEN
-        sync: false
-      - key: WATCHLIST_LIMIT
-        value: "100"
-      - key: FUNDAMENTALS_MAX_AGE_DAYS
-        value: "10"

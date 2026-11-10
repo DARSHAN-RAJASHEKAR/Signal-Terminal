@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stocks Screener · Signal Terminal</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="screener.css?v=4" />
+</head>
+<body>
+
+  <!-- ── Status bar ─────────────────────────────────────────────── -->
+  <div class="statusbar">
+    <div class="sb-top-row">
+      <div class="sb-left">
+        <a class="sb-home" href="./" title="Signal Terminal: all tools">◂ HOME</a>
+        <span class="sb-sep">|</span>
+        <span class="sb-brand">Stocks Screener</span>
+        <span class="sb-sep">|</span>
+        <span class="sb-status">
+          <span class="sb-status-dot" id="statusDot"></span>
+          <span id="statusText">CONNECTING</span>
+        </span>
+      </div>
+      <div class="sb-right-desktop">
+        <span class="sb-tick" data-tick="nifty"><span class="sb-tick-label">NIFTY 50</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick" data-tick="sp500"><span class="sb-tick-label">S&amp;P 500</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick" data-tick="dow"><span class="sb-tick-label">DOW 30</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick" data-tick="btc"><span class="sb-tick-label">BTC/USD</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-time" id="sbTime">—</span>
+      </div>
+      <span class="sb-time-mobile" id="sbTimeMobile">—</span>
+    </div>
+    <div class="sb-ticker-tape">
+      <div class="sb-ticker-track">
+        <span class="sb-tick-m" data-tick-m="nifty"><span class="sb-tick-label">NIFTY 50</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="sp500"><span class="sb-tick-label">S&amp;P 500</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="dow"><span class="sb-tick-label">DOW 30</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="btc"><span class="sb-tick-label">BTC/USD</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="nifty"><span class="sb-tick-label">NIFTY 50</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="sp500"><span class="sb-tick-label">S&amp;P 500</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="dow"><span class="sb-tick-label">DOW 30</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        <span class="sb-tick-m" data-tick-m="btc"><span class="sb-tick-label">BTC/USD</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    ⚠ For educational and research purposes only. Not financial advice. Data may be delayed.
+  </div>
+
+  <main class="workspace" id="workspace">
+
+    <!-- ── Left rail: sort + filters ── -->
+    <aside class="rail" id="rail">
+      <div class="rail-scroll">
+
+        <div class="rail-section">
+          <div class="rail-label">SORT BY</div>
+          <div class="sort-list" id="sortList"></div>
+        </div>
+
+        <div class="rail-section">
+          <div class="rail-label">FILTERS</div>
+          <div class="filter-stack" id="filterStack"></div>
+        </div>
+
+      </div>
+
+      <div class="rail-cta">
+        <div class="sc-active-count" id="activeCount">No filters applied</div>
+        <button class="cta-ghost sc-reset" id="resetBtn" type="button">RESET FILTERS</button>
+        <button class="run-btn sc-mobile-done" id="mobileDone" type="button">SHOW RESULTS <span class="run-arrow">▸</span></button>
+      </div>
+    </aside>
+
+    <!-- ── Right canvas ── -->
+    <section class="canvas" id="canvas">
+
+      <header class="canvas-head">
+        <div class="canvas-crumbs">
+          <span class="crumb-item">SCREENER</span>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-item crumb-active" id="crumbIndex">ALL STOCKS</span>
+        </div>
+        <div class="canvas-tools">
+          <span class="sc-refresh" id="refreshState"></span>
+          <button class="tool-btn" id="exportBtn" disabled title="Export CSV">↓ EXPORT CSV</button>
+        </div>
+      </header>
+
+      <!-- Loading (first build of the snapshot) -->
+      <div class="mode" id="modeLoading">
+        <div class="loading-wrap">
+          <div class="loading-card">
+            <div class="loading-card-title">SCREENER · <span>NIFTY TOTAL MARKET</span></div>
+            <div class="loading-card-sub" id="loadingSub">Connecting to the market data service…</div>
+            <div class="loading-rule"></div>
+            <div class="rail-label rail-label-tight">LOADING MARKET DATA</div>
+            <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+            <div class="progress-meta">
+              <span id="progressCount">—</span>
+              <span id="progressNote">first load of the day takes a minute or two</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="mode" id="modeResults" hidden>
+        <div class="results-head">
+          <div class="results-head-left">
+            <h2 class="results-title"><span id="resultsCount">0</span> <span id="resultsNoun">stocks</span></h2>
+            <div class="results-meta" id="resultsMeta">—</div>
+          </div>
+        </div>
+        <div class="sc-chips" id="activeChips" hidden></div>
+
+        <div class="sc-table-wrap" id="tableWrap">
+          <table class="rtable sc-table">
+            <thead>
+              <tr>
+                <th class="th-num">#</th>
+                <th class="th-sym">COMPANY</th>
+                <th class="th-r sortable" data-sort="price">MARKET PRICE <span class="sort-icon"></span></th>
+                <th class="th-r sortable" data-sort="change">1D PRICE CHANGE <span class="sort-icon"></span></th>
+                <th class="th-r sortable" data-sort="volume">1D VOLUME <span class="sort-icon"></span></th>
+                <th class="th-r">1W AVG VOL DIFF</th>
+                <th class="th-c sc-th-52w">52W PERFORMANCE</th>
+                <th class="th-r sortable" data-sort="mcap">MARKET CAP (CR) <span class="sort-icon"></span></th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+          </table>
+          <div class="sc-more" id="moreWrap" hidden>
+            <button class="cta-ghost" id="moreBtn" type="button">SHOW MORE</button>
+          </div>
+          <div class="sc-empty" id="emptyState" hidden>
+            <div class="empty-glyph">⌀</div>
+            <div class="empty-title">NO MATCHES</div>
+            <div class="empty-desc">No stocks match all of these filters right now. Loosen one, or reset them all.</div>
+            <button class="cta-ghost" id="emptyReset" type="button">RESET FILTERS</button>
+          </div>
+        </div>
+
+        <div class="results-foot">
+          <span id="footLeft">DATA: <a class="foot-link" href="https://finance.yahoo.com" target="_blank" rel="noopener noreferrer">YAHOO FINANCE</a> · <a class="foot-link" href="https://www.nseindia.com" target="_blank" rel="noopener noreferrer">NSE</a> · Built using <a class="foot-link" href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude</a>, <a class="foot-link" href="https://render.com" target="_blank" rel="noopener noreferrer">Render</a>, <a class="foot-link" href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></span>
+          <span id="footRight">—</span>
+        </div>
+      </div>
+
+      <!-- Error -->
+      <div class="mode" id="modeError" hidden>
+        <div class="empty-wrap empty-error">
+          <div class="empty-glyph empty-glyph-err">!</div>
+          <div class="empty-title">CONNECTION ERROR</div>
+          <div class="empty-desc" id="errorText">Couldn't reach the screener service.</div>
+          <div class="error-actions">
+            <button class="cta-primary" id="errorRetry" type="button">RETRY</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <button class="m-filter-fab" id="mFilterFab" type="button">FILTERS</button>
+
+  <script src="shell.js?v=3"></script>
+  <script src="screener.js?v=5"></script>
+</body>
+</html>

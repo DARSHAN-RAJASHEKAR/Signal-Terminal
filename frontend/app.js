@@ -69,6 +69,7 @@
   };
 
   const CURRENCY = { india: '₹', us: '$', crypto: '$' };
+  const MARKET_LABELS = { india: 'NSE', us: 'US', crypto: 'CRYPTO' };
 
   // ── State ─────────────────────────────────────────────────────
   let selectedMarket   = 'india';
@@ -304,6 +305,8 @@
     const now = new Date();
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
     const time = now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, timeZone: tz });
+    // Shared zone-label logic lives in shell.js (loaded on this page too).
+    if (window.Shell) return window.Shell.localTimeStr(now);
     const abbr = now.toLocaleTimeString('en-US', { timeZoneName: 'short', timeZone: tz }).split(' ').pop();
     return `${time} ${abbr}`;
   }
@@ -316,6 +319,17 @@
 
   // ── Run scan ──────────────────────────────────────────────────
   function wireRunButton() {
+    // Decline thresholds: digits only, clamped to 0–99.
+    document.querySelectorAll('.field-pct').forEach((input) => {
+      input.addEventListener('input', () => {
+        const digits = input.value.replace(/\D/g, '').slice(0, 2);
+        if (digits !== input.value) input.value = digits;
+      });
+      input.addEventListener('blur', () => {
+        if (input.value === '') input.value = '0';
+        input.value = String(Math.min(99, parseInt(input.value, 10) || 0));
+      });
+    });
     $('scanBtn').addEventListener('click', runScan);
     $('cancelBtn').addEventListener('click', cancelScan);
   }
@@ -365,6 +379,7 @@
     const uniLabel = UNIVERSE_LABELS[body.stockUniverse] || body.stockUniverse;
 
     setMode('loading');
+    $('loadMarket').textContent = MARKET_LABELS[body.market] || body.market.toUpperCase();
     $('loadUniverse').textContent = uniLabel.toUpperCase();
     $('loadFilters').innerHTML = scanSubtitle(body);
     $('progressFill').style.width = '0%';
@@ -510,8 +525,8 @@
           sortDir = 'asc';
         }
         sortResults();
-        const wT = (lastScanBody && lastScanBody.weeklyThreshold) || 5;
-        const mT = (lastScanBody && lastScanBody.monthlyThreshold) || 10;
+        const wT = (lastScanBody && lastScanBody.weeklyThreshold) ?? 5;
+        const mT = (lastScanBody && lastScanBody.monthlyThreshold) ?? 10;
         const cur    = CURRENCY[selectedMarket];
         const locale = selectedMarket === 'india' ? 'en-IN' : 'en-US';
         $('resultsBody').innerHTML = scanResults.map((r, i) => renderRow(r, i, wT, mT, cur, locale)).join('');
@@ -522,8 +537,8 @@
 
   // ── Render results ────────────────────────────────────────────
   function renderResults() {
-    const wThresh = (lastScanBody && lastScanBody.weeklyThreshold) || 5;
-    const mThresh = (lastScanBody && lastScanBody.monthlyThreshold) || 10;
+    const wThresh = (lastScanBody && lastScanBody.weeklyThreshold) ?? 5;
+    const mThresh = (lastScanBody && lastScanBody.monthlyThreshold) ?? 10;
     const cur     = CURRENCY[selectedMarket];
     const locale  = selectedMarket === 'india' ? 'en-IN' : 'en-US';
     const uniLabel = UNIVERSE_LABELS[scanData.stock_universe] || UNIVERSE_LABELS[selectedUniverse] || selectedUniverse;
@@ -619,6 +634,13 @@
         <td class="td-r td-secondary">${formatPrice(r.priceOneWeekAgo, locale)}</td>
         <td class="td-r td-secondary">${formatPrice(r.priceOneMonthAgo, locale)}</td>
         <td class="td-r td-secondary">${volume}</td>
+        <td class="td-bt">
+          <button type="button" class="bt-open"
+            data-sym="${escapeHtml(r.symbol)}" data-name="${escapeHtml(r.name || symbol)}"
+            data-market="${escapeHtml((lastScanBody && lastScanBody.market) || selectedMarket)}"
+            data-weekly="${wThresh}" data-monthly="${mThresh}" data-cur="${escapeHtml(cur)}"
+            title="How did past dips like this one play out?">BACKTEST ▸</button>
+        </td>
       </tr>
     `;
   }

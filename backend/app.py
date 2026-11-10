@@ -9,6 +9,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 app = Flask(__name__)
 
+from screener import screener_bp
+app.register_blueprint(screener_bp)
+
 _BINANCE_BASE = "https://api.binance.com/api/v3"
 _STABLE_SYMBOLS = {'USDT', 'BUSD', 'USDC', 'DAI', 'TUSD', 'USDP', 'FDUSD', 'UST', 'USDS'}
 
@@ -2382,6 +2385,38 @@ def tickers():
         except Exception as e:
             out[key] = None
     return jsonify(out)
+
+@app.route('/backtest')
+def backtest_route():
+    """Dip backtest for one BuyTheDip result.
+
+    GET /backtest?symbol=RELIANCE.NS&market=india&weekly=5&monthly=10&years=5
+    """
+    import re
+    import backtest as bt
+
+    symbol = (request.args.get('symbol') or '').strip()
+    market = request.args.get('market', 'india')
+    weekly = request.args.get('weekly', type=float)
+    monthly = request.args.get('monthly', type=float)
+    years = request.args.get('years', default=5, type=int)
+
+    if market not in ('india', 'us', 'crypto'):
+        return jsonify({'error': 'market must be india, us or crypto'}), 400
+    if not re.fullmatch(r'[A-Za-z0-9.&^=_-]{1,24}', symbol):
+        return jsonify({'error': 'invalid symbol'}), 400
+    if weekly is None or monthly is None or not (0 <= weekly < 100 and 0 <= monthly < 100):
+        return jsonify({'error': 'weekly and monthly must be between 0 and 99'}), 400
+    if years not in bt.ALLOWED_YEARS:
+        return jsonify({'error': f'years must be one of {list(bt.ALLOWED_YEARS)}'}), 400
+
+    try:
+        result = bt.backtest(symbol, market, weekly, monthly, years, _binance_headers())
+    except LookupError as e:
+        return jsonify({'error': str(e)}), 404
+    except requests.RequestException:
+        return jsonify({'error': 'Price history source is unavailable right now. Try again shortly.'}), 502
+    return jsonify(result)
 
 @app.route('/health')
 def health_check():

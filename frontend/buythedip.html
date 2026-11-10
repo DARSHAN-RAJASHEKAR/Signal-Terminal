@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuyTheDip · Signal Terminal</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="backtest.css?v=1" />
+</head>
+<body>
+
+  <!-- ── Status bar (always visible, fixed top) ─────────────────── -->
+  <div class="statusbar">
+    <div class="sb-top-row">
+      <div class="sb-left">
+        <a class="sb-home" href="./" title="Signal Terminal: all tools">◂ HOME</a>
+        <span class="sb-sep">|</span>
+        <span class="sb-brand" id="homeBrand" role="button" tabindex="0">BuyTheDip</span>
+        <span class="sb-sep">|</span>
+        <span class="sb-status">
+          <span class="sb-status-dot" id="statusDot"></span>
+          <span id="statusText">CONNECTING</span>
+        </span>
+      </div>
+      <div class="sb-right-desktop" id="sbTickers">
+        <span class="sb-tick" data-tick="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick" data-tick="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-time" id="sbTime">—</span>
+      </div>
+      <span class="sb-time-mobile" id="sbTimeMobile">—</span>
+    </div>
+    <div class="sb-ticker-tape">
+      <div class="sb-ticker-track" id="sbTickerTrack">
+        <span class="sb-tick-m" data-tick-m="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <!-- Duplicated set for seamless loop -->
+        <span class="sb-tick-m" data-tick-m="nifty">
+          <span class="sb-tick-label">NIFTY 50</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="sp500">
+          <span class="sb-tick-label">S&amp;P 500</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="dow">
+          <span class="sb-tick-label">DOW 30</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+        <span class="sb-tick-m" data-tick-m="btc">
+          <span class="sb-tick-label">BTC/USD</span>
+          <span class="sb-tick-val">—</span>
+          <span class="sb-tick-chg">—</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Disclaimer strip ────────────────────────────────────────── -->
+  <div class="disclaimer">
+    ⚠ For educational and research purposes only. Not financial advice. Data may be delayed.
+  </div>
+
+  <!-- ── Main workspace ──────────────────────────────────────────── -->
+  <main class="workspace" id="workspace">
+
+    <!-- ── Left rail ── -->
+    <aside class="rail" id="rail">
+      <div class="rail-scroll">
+        <div class="rail-section">
+          <div class="rail-label">MARKETS</div>
+          <div class="market-list" id="marketList">
+            <button class="market-row active" data-market="india">
+              <span class="market-code">IN</span>
+              <span class="market-meta">
+                <span class="market-name">India · NSE</span>
+                <span class="market-sub">50/100/200/500</span>
+              </span>
+              <span class="market-pip">●</span>
+            </button>
+            <button class="market-row" data-market="us">
+              <span class="market-code">US</span>
+              <span class="market-meta">
+                <span class="market-name">United States</span>
+                <span class="market-sub">DOW · S&P · NASDAQ</span>
+              </span>
+              <span class="market-pip">●</span>
+            </button>
+            <button class="market-row" data-market="crypto">
+              <span class="market-code">CR</span>
+              <span class="market-meta">
+                <span class="market-name">Crypto</span>
+                <span class="market-sub">Binance · top 500</span>
+              </span>
+              <span class="market-pip">●</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="rail-section">
+          <div class="rail-label">UNIVERSE</div>
+          <div class="universe-grid" id="universeGrid"></div>
+        </div>
+
+        <div class="rail-section">
+          <div class="rail-label">FILTERS</div>
+          <div class="filter-stack">
+            <label class="field">
+              <span class="field-label">WEEKLY DECLINE ≥</span>
+              <span class="field-input-wrap">
+                <input class="field-input field-pct" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" autocomplete="off" id="weeklyThreshold" value="5"/>
+                <span class="field-unit">%</span>
+              </span>
+            </label>
+            <label class="field">
+              <span class="field-label">MONTHLY DECLINE ≥</span>
+              <span class="field-input-wrap">
+                <input class="field-input field-pct" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" autocomplete="off" id="monthlyThreshold" value="10"/>
+                <span class="field-unit">%</span>
+              </span>
+            </label>
+            <label class="field">
+              <span class="field-label">MARKET CAP</span>
+              <select class="field-select" id="marketCapFilter">
+                <option value="all">ALL</option>
+                <option value="large">LARGE</option>
+                <option value="mid">MID</option>
+                <option value="small">SMALL</option>
+              </select>
+            </label>
+            <label class="field" id="sectorFilterItem">
+              <span class="field-label">SECTOR</span>
+              <select class="field-select" id="sectorFilter"></select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="rail-cta">
+        <button class="run-btn" id="scanBtn">
+          <span id="buttonText">RUN SCAN</span>
+          <span class="run-arrow">▸</span>
+        </button>
+        <button class="run-btn cancel-btn" id="cancelBtn" hidden>
+          <span>CANCEL SCAN</span>
+          <span class="run-arrow">✕</span>
+        </button>
+        <div class="run-hint" id="runHint">Press <kbd>⌘</kbd>+<kbd>↵</kbd> to run</div>
+      </div>
+    </aside>
+
+    <!-- ── Right canvas ── -->
+    <section class="canvas" id="canvas">
+
+      <!-- Canvas header -->
+      <header class="canvas-head">
+        <div class="canvas-crumbs">
+          <span class="crumb-item crumb-active" id="crumbConfigure" role="button" tabindex="0">CONFIGURE</span>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-item" id="crumbScanner">SCANNER</span>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-item" id="crumbResult">RESULTS</span>
+        </div>
+        <div class="canvas-tools">
+          <button class="tool-btn" id="exportBtn" disabled title="Export CSV">↓ EXPORT CSV</button>
+        </div>
+      </header>
+
+      <!-- Mode 1: idle / initial -->
+      <div class="mode" id="modeIdle">
+        <div class="idle-wrap">
+          <div class="idle-eyebrow">BUYTHEDIP</div>
+          <h1 class="idle-title">Find dips. <span class="idle-dim">Before the headlines do.</span></h1>
+          <p class="idle-lede">
+            Scan across NSE, US markets and crypto for stocks that dropped beyond your thresholds.
+          </p>
+
+          <div class="idle-steps">
+            <div class="step">
+              <div class="step-num">01</div>
+              <div class="step-title">Pick a market</div>
+              <div class="step-desc">NSE India, US markets or crypto. Choose the slice from the left rail.</div>
+            </div>
+            <div class="step">
+              <div class="step-num">02</div>
+              <div class="step-title">Set thresholds</div>
+              <div class="step-desc">How sharp a drop counts as a dip. Defaults are conservative — tighten or relax as you like.</div>
+            </div>
+            <div class="step">
+              <div class="step-num">03</div>
+              <div class="step-title">Read the signal</div>
+              <div class="step-desc">Ranked dips with volume, sector breakdown, sparklines, signal strength.</div>
+            </div>
+          </div>
+
+          <div class="idle-ctas">
+            <span class="idle-note">Set your filters in the left rail and press <b>Run Scan</b>.</span>
+            <span class="idle-note idle-note-end">NOT FINANCIAL ADVICE · DATA: YAHOO FINANCE · BINANCE</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mode 2: loading -->
+      <div class="mode" id="modeLoading" hidden>
+        <div class="loading-wrap">
+          <div class="loading-card">
+            <div class="loading-card-title"><span id="loadMarket">NSE</span> · SCAN · <span id="loadUniverse">NIFTY 50</span></div>
+            <div class="loading-card-sub" id="loadFilters">−5% / 1W · −10% / 1M</div>
+            <div class="loading-rule"></div>
+            <div class="rail-label rail-label-tight">PROGRESS</div>
+            <div class="progress-bar">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-meta">
+              <span id="progressCount">0/0 fetched</span>
+              <span id="progressEta">—</span>
+            </div>
+          </div>
+          <div class="loading-stats">
+            <div class="lstat">
+              <div class="lstat-label">SCANNING</div>
+              <div class="lstat-value" id="lstatSymbols">0 / 0</div>
+            </div>
+            <div class="lstat">
+              <div class="lstat-label">MATCHES</div>
+              <div class="lstat-value lstat-amber" id="lstatMatches">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mode 3: results -->
+      <div class="mode" id="modeResults" hidden>
+        <div class="results-head">
+          <div class="results-head-left">
+            <h2 class="results-title"><span id="resultsCount">0</span> dip candidates</h2>
+            <div class="results-meta" id="resultsMeta">scanned 0 · 0s</div>
+          </div>
+        </div>
+
+        <div class="stat-strip" id="statStrip"></div>
+
+        <div class="results-body">
+          <aside class="results-side">
+            <div class="rail-label rail-label-tight">BREAKDOWN</div>
+            <div class="breakdown" id="breakdownList"></div>
+
+          </aside>
+
+          <div class="results-table-wrap">
+            <table class="rtable">
+              <thead>
+                <tr>
+                  <th class="th-num">#</th>
+                  <th class="th-sym sortable" data-sort="symbol">SYMBOL <span class="sort-icon"></span></th>
+                  <th class="th-sec sortable" data-sort="sector">SECTOR <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="price">PRICE <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="weekly">1W <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="monthly">1M <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="weekAgo">1W AGO <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="monthAgo">1M AGO <span class="sort-icon"></span></th>
+                  <th class="th-r sortable" data-sort="volume">VOL <span class="sort-icon"></span></th>
+                  <th class="th-bt"><span class="sr-only">Backtest</span></th>
+                </tr>
+              </thead>
+              <tbody id="resultsBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="results-foot">
+          <span id="footRefresh">DATA: <span id="footFeed">YH</span> · <span id="footTime">—</span> · Built using <a class="foot-link" href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude</a>, <a class="foot-link" href="https://render.com" target="_blank" rel="noopener noreferrer">Render</a>, <a class="foot-link" href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></span>
+        </div>
+      </div>
+
+      <!-- Mode 4: no results -->
+      <div class="mode" id="modeNoResults" hidden>
+        <div class="empty-wrap">
+          <div class="empty-glyph">⌀</div>
+          <div class="empty-title">NO MATCHES</div>
+          <div class="empty-desc">No symbols in this universe met your thresholds. Try lowering the decline floors, or expand to a larger universe.</div>
+          <button class="cta-ghost" id="emptyRetry">EDIT FILTERS</button>
+        </div>
+      </div>
+
+      <!-- Mode 5: error -->
+      <div class="mode" id="modeError" hidden>
+        <div class="empty-wrap empty-error">
+          <div class="empty-glyph empty-glyph-err">!</div>
+          <div class="empty-title">CONNECTION ERROR</div>
+          <div class="empty-desc" id="errorText">Couldn't reach the scanner service.</div>
+          <div class="error-actions">
+            <button class="cta-primary" id="errorRetry">RETRY</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Mobile filter sheet (collapsed; shown on small screens) -->
+  <button class="m-filter-fab" id="mFilterFab" hidden>FILTERS</button>
+
+  <div class="bt-overlay" id="btOverlay" hidden></div>
+  <aside class="bt-drawer" id="btDrawer" role="dialog" aria-modal="true" aria-labelledby="btTitle" hidden>
+    <header class="bt-head">
+      <div>
+        <div class="rail-label rail-label-tight">DIP BACKTEST</div>
+        <h3 class="bt-title" id="btTitle">—</h3>
+        <div class="bt-sub" id="btSub"></div>
+      </div>
+      <button type="button" class="tool-btn bt-close" id="btClose" aria-label="Close backtest">✕</button>
+    </header>
+    <div class="bt-controls">
+      <span class="field-label">LOOKBACK</span>
+      <div class="bt-seg" id="btYears">
+        <button type="button" data-y="3">3Y</button>
+        <button type="button" data-y="5">5Y</button>
+        <button type="button" data-y="10">10Y</button>
+      </div>
+    </div>
+    <div class="bt-body" id="btBody"></div>
+  </aside>
+
+  <script src="app.js?v=4"></script>
+  <script src="shell.js?v=3"></script>
+  <script src="backtest.js?v=2"></script>
+</body>
+</html>

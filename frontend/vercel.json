@@ -6,8 +6,13 @@
     }
   ],
   "routes": [
-    { "src": "/quant", "dest": "https://quant-backend.onrender.com/" },
-    { "src": "/quant/(.*)", "dest": "https://quant-backend.onrender.com/$1" },
+    { "src": "/buythedip\\.html", "status": 308, "headers": { "Location": "/buythedip" } },
+    { "src": "/screener\\.html", "status": 308, "headers": { "Location": "/screener" } },
+    { "src": "/pulse\\.html", "status": 308, "headers": { "Location": "/pulse" } },
+    { "src": "/index\\.html", "status": 308, "headers": { "Location": "/" } },
+    { "src": "/buythedip", "dest": "/buythedip.html" },
+    { "src": "/screener", "dest": "/screener.html" },
+    { "src": "/pulse", "dest": "/pulse.html" },
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/404.html" }
   ]
