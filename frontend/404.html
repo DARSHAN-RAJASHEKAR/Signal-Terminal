@@ -1,130 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 - Page Not Found</title>
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      :root {
-        --primary-color: #1e3a8a;
-        --secondary-color: #3b82f6;
-        --accent-color: #10b981;
-        --dark-bg: #0f172a;
-        --light-bg: #1e293b;
-        --text-primary: #f8fafc;
-        --text-secondary: #94a3b8;
-      }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        min-height: 100vh;
-        color: var(--text-primary);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-      }
-      body::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: 
-          radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
-          radial-gradient(circle at 80% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
-        pointer-events: none;
-        z-index: 1;
-      }
-      .container {
-        position: relative;
-        z-index: 2;
-        padding: 50px 40px;
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        max-width: 600px;
-        width: 90%;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-        animation: float 6s ease-in-out infinite;
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-      }
-      h1 {
-        font-size: 8rem;
-        font-weight: 900;
-        margin-bottom: 10px;
-        background: linear-gradient(135deg, #60a5fa, #34d399);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
-        line-height: 1;
-      }
-      h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: 20px;
-        color: #f1f5f9;
-      }
-      p {
-        font-size: 1.1rem;
-        color: var(--text-secondary);
-        margin-bottom: 35px;
-        line-height: 1.6;
-      }
-      .home-btn {
-        display: inline-block;
-        background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-        color: white;
-        text-decoration: none;
-        padding: 16px 35px;
-        border-radius: 12px;
-        font-size: 1.1rem;
-        font-weight: 700;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
-        position: relative;
-        overflow: hidden;
-      }
-      .home-btn::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-        transition: left 0.6s ease;
-      }
-      .home-btn:hover::before {
-        left: 100%;
-      }
-      .home-btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 15px 35px rgba(59, 130, 246, 0.35);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>404</h1>
-      <h2>Page Not Found</h2>
-      <p>Oops! It seems you've wandered off the charts. The page you are looking for doesn't exist or has been moved.</p>
-      <a href="/" class="home-btn">Return to Scanner</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Not Found · Signal Terminal</title>
+  <meta name="robots" content="noindex" />
+  <!-- Absolute paths: this page is served for any unknown URL, nested ones included. -->
+  <link rel="icon" type="image/png" href="/favicon.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css?v=3" />
+  <style>
+    .nf {
+      flex: 1;
+      display: grid;
+      /* minmax(0, 1fr): without it the column grows to the ticker tape's
+         full scrolling width and pushes the card off-centre */
+      grid-template-columns: minmax(0, 1fr);
+      place-items: center;
+      padding: 32px 16px;
+      overflow-y: auto;
+    }
+
+    .nf-card {
+      width: min(620px, 100%);
+      text-align: center;
+    }
+
+    .nf-code {
+      font-family: var(--mono);
+      font-size: 64px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      color: var(--amber);
+    }
+
+    .nf-card .empty-title {
+      margin-top: 14px;
+    }
+
+    /* Live index tape: the same scrolling strip as the status bar on small screens */
+    .nf-tape {
+      margin-top: 18px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: var(--mono);
+      font-size: 11.5px;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      color: var(--textDim);
+      /* fade the edges so ticks glide in and out */
+      -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+      mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+    }
+
+    .nf-tape .sb-ticker-track {
+      gap: 36px;
+      padding-left: 36px;
+      animation-duration: 22s;
+    }
+
+    .nf-tape:hover .sb-ticker-track {
+      animation-play-state: paused;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .nf-tape .sb-ticker-track { animation: none; }
+    }
+
+    .nf-actions {
+      margin-top: 22px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .nf-actions .cta-primary {
+      text-decoration: none;
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .nf-tools {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .nf-tools .rail-label {
+      margin-bottom: 10px;
+    }
+
+    .nf-links {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .nf-links a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--textDim);
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 600;
+      text-align: left;
+      transition: border-color 120ms, color 120ms, background 120ms;
+    }
+
+    .nf-links a:hover,
+    .nf-links a:focus-visible {
+      border-color: var(--borderH);
+      background: var(--panel2);
+      color: var(--text);
+      outline: none;
+    }
+
+    .nf-links .market-code {
+      width: 24px;
+      height: 24px;
+      font-size: 9.5px;
+      color: var(--amber);
+    }
+
+    @media (max-width: 520px) {
+      .nf-code { font-size: 48px; }
+      .nf-links { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="statusbar">
+    <div class="sb-top-row">
+      <div class="sb-left">
+        <a class="sb-home" href="/" title="Signal Terminal: all tools">◂ HOME</a>
+        <span class="sb-sep">|</span>
+        <span class="sb-brand">Signal Terminal</span>
+        <span class="sb-sep">|</span>
+        <span class="sb-status">
+          <span class="sb-status-dot" id="statusDot"></span>
+          <span id="statusText">CONNECTING</span>
+        </span>
+      </div>
+      <div class="sb-right-desktop">
+        <span class="sb-time" id="sbTime">—</span>
+      </div>
+      <span class="sb-time-mobile" id="sbTimeMobile">—</span>
     </div>
-  </body>
+  </div>
+
+  <div class="disclaimer">
+    ⚠ For educational and research purposes only. Not financial advice. Data may be delayed.
+  </div>
+
+  <main class="nf">
+    <div class="nf-card">
+      <div class="nf-code">404</div>
+      <div class="empty-title">PAGE NOT FOUND</div>
+      <div class="empty-desc">This page isn't on the terminal. It may have moved, or the link may be mistyped.</div>
+      <div class="nf-tape" aria-label="Live index prices">
+        <div class="sb-ticker-track">
+          <span class="sb-tick-m" data-tick-m="nifty"><span class="sb-tick-label">NIFTY 50</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="sp500"><span class="sb-tick-label">S&amp;P 500</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="dow"><span class="sb-tick-label">DOW 30</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="btc"><span class="sb-tick-label">BTC/USD</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <!-- duplicated set for a seamless loop -->
+          <span class="sb-tick-m" data-tick-m="nifty"><span class="sb-tick-label">NIFTY 50</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="sp500"><span class="sb-tick-label">S&amp;P 500</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="dow"><span class="sb-tick-label">DOW 30</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+          <span class="sb-tick-m" data-tick-m="btc"><span class="sb-tick-label">BTC/USD</span><span class="sb-tick-val">—</span><span class="sb-tick-chg">—</span></span>
+        </div>
+      </div>
+
+      <div class="nf-actions">
+        <a class="cta-primary" href="/">BACK TO HOME <span class="run-arrow">▸</span></a>
+      </div>
+
+      <div class="nf-tools">
+        <div class="rail-label">OR JUMP TO A TOOL</div>
+        <nav class="nf-links" aria-label="Tools">
+          <a href="/buythedip"><span class="market-code">BD</span>BuyTheDip</a>
+          <a href="/screener"><span class="market-code">SC</span>Stocks Screener</a>
+          <a href="/pulse"><span class="market-code">MP</span>Market Pulse</a>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <script src="/shell.js?v=3"></script>
+  <script>
+    window.Shell.start();   // fills the status bar and the ticker tape below, refreshing every 15s
+  </script>
+</body>
 </html>
