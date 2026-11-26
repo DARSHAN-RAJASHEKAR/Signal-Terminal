@@ -20,5 +20,5 @@ jobs:
                --max-time 30 \
                -o /dev/null \
                -w "HTTP status: %{http_code} | Response time: %{time_total}s\n" \
-               https://buythedip-2.onrender.com/health
+               https://buythedip.onrender.com/health
           echo "Ping successful ✅"
