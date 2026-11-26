@@ -25,8 +25,10 @@ if os.environ.get('RENDER') or os.environ.get('PORT'):
     CORS(app, 
          origins=[
              "https://buy-the-dip-beige.vercel.app",
+             "https://signal.darshanrajashekar.dev",
              "https://buythedip.darshanrajashekar.dev",
-             "https://*.vercel.app",
+             # flask-cors treats entries with regex chars as regexes, not globs
+             r"https://[a-z0-9-]+\.vercel\.app",
              "http://localhost:3000",
              "http://127.0.0.1:5000",
              "http://localhost:7778",
